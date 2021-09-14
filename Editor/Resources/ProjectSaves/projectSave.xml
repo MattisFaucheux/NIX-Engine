@@ -1,0 +1,29 @@
+<project_save>
+    <shipping_settings visual_studio_folder="D:\Microsoft Visual Studio\2019" build_folder="F:\Projet-Git Ecole\EnginPasReel\Build" build_name="DemoNIX" shipping_mode="1" scene_to_load="Assets\SaveScene\Levels\Level1.scene">
+        <scenes_in_build>
+            <scene path="Assets\SaveScene\Levels\MainMenu.scene"/>
+            <scene path="Assets\SaveScene\Levels\Level1.scene"/>
+            <scene path="Assets\SaveScene\Levels\Level2.scene"/>
+            <scene path="Assets\SaveScene\Levels\Level3.scene"/>
+            <scene path="Assets\SaveScene\Levels\Credits.scene"/>
+        </scenes_in_build>
+    </shipping_settings>
+    <tags>
+        <tag name="Untagged"/>
+        <tag name="Player"/>
+        <tag name="MainCamera"/>
+        <tag name="Bridge1"/>
+        <tag name="Bridge2"/>
+        <tag name="CubeObject"/>
+        <tag name="Button1"/>
+        <tag name="Button2"/>
+        <tag name="Ball"/>
+        <tag name="LightObjective"/>
+        <tag name="Objective"/>
+        <tag name="SpawnPoint"/>
+        <tag name="Button3"/>
+        <tag name="RotatePlatform1"/>
+        <tag name="RotatePlatform2"/>
+        <tag name="+ Add Tag..."/>
+    </tags>
+</project_save>

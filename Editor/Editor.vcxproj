@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game_Shipping_Debug|Win32">
+      <Configuration>Game_Shipping_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game_Shipping_Debug|x64">
+      <Configuration>Game_Shipping_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game_Shipping_Release|Win32">
+      <Configuration>Game_Shipping_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game_Shipping_Release|x64">
+      <Configuration>Game_Shipping_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{751dd25a-1431-44f8-abcd-713a4517cf2c}</ProjectGuid>
+    <RootNamespace>Editor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(ProjectDir)include;$(SolutionDir)Core\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Physic\include;$(SolutionDir)Rendering\include;$(SolutionDir)Sound\include;$(SolutionDir)vendor\libMaths\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Core.lib;GeometricTools.lib;Physic.lib;Rendering.lib;Sound.lib;libMaths.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)x64\Debug;$(SolutionDir)vendor\libMaths\Debug;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)x64\Debug\Core.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\GeometricTools.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\Physique.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\Rendering.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\Sound.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\assimp-5.0.1\build\code\Debug\assimp-vc142-mtd.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)Editor\Assets" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_SHIPPING</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\PhysX\include;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(ProjectDir)include;$(SolutionDir)Core\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Physique\include;$(SolutionDir)Rendering\include;$(SolutionDir)Sound\include;$(SolutionDir)vendor\libMaths\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Core.lib;GeometricTools.lib;Physique.lib;Rendering.lib;Sound.lib;libMaths.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)x64\Debug;$(SolutionDir)vendor\libMaths\Debug;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Debug\Core.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Debug\GeometricTools.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Debug\Physique.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Debug\Rendering.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Debug\Sound.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\assimp-5.0.1\build\code\Debug\assimp-vc142-mtd.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\PhysX\include;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(ProjectDir)include;$(SolutionDir)Core\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Physique\include;$(SolutionDir)Rendering\include;$(SolutionDir)Sound\include;$(SolutionDir)vendor\libMaths\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Core.lib;GeometricTools.lib;Physique.lib;Rendering.lib;Sound.lib;libMaths.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)x64\Debug;$(SolutionDir)vendor\libMaths\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)x64\Debug\Core.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\GeometricTools.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\Physique.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\Rendering.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\Sound.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\assimp-5.0.1\build\code\Release\assimp-vc142-mt.dll" "$(OutDir)"
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_SHIPPING</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\PhysX\include;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(ProjectDir)include;$(SolutionDir)Core\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Physique\include;$(SolutionDir)Rendering\include;$(SolutionDir)Sound\include;$(SolutionDir)vendor\libMaths\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Core.lib;GeometricTools.lib;Physique.lib;Rendering.lib;Sound.lib;libMaths.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)x64\Debug;$(SolutionDir)vendor\libMaths\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Release\Core.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Release\GeometricTools.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Release\Physique.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Release\Rendering.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Release\Sound.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\assimp-5.0.1\build\code\Release\assimp-vc142-mt.dll" "$(OutDir)"
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\PhysX\include;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(ProjectDir)include;$(SolutionDir)Core\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Physic\include;$(SolutionDir)Rendering\include;$(SolutionDir)Sound\include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)vendor\Lua-x64-master\include;$(SolutionDir)vendor\LuaBridge-master\Source\LuaBridge;$(SolutionDir)vendor\LuaBridge-master\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Core.lib;GeometricTools.lib;Physic.lib;Rendering.lib;Sound.lib;libMaths.lib;lua5.3.lib;glfw3dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)vendor\libMaths\Debug;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019;$(SolutionDir)vendor\Lua-x64-master\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)x64\Debug\Core.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\GeometricTools.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\Physique.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\Rendering.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Debug\Sound.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\assimp-5.0.1\build\code\Debug\assimp-vc142-mtd.dll" "$(OutDir)"
+xcopy /y /d /i /s "$(SolutionDir)Editor\Assets" "$(OutDir)Assets"
+xcopy /y /d /i /s "$(SolutionDir)Editor\Resources" "$(OutDir)Resources"
+xcopy /y /d "$(SolutionDir)Editor\imgui.ini" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\Lua-x64-master\lua5.3.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_SHIPPING</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\PhysX\include;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(ProjectDir)include;$(SolutionDir)Core\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Physic\include;$(SolutionDir)Rendering\include;$(SolutionDir)Sound\include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)vendor\Lua-x64-master\include;$(SolutionDir)vendor\LuaBridge-master\Source\LuaBridge;$(SolutionDir)vendor\LuaBridge-master\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Core.lib;GeometricTools.lib;Physic.lib;Rendering.lib;Sound.lib;libMaths.lib;lua5.3.lib;glfw3dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)vendor\libMaths\Debug;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019;%(AdditionalLibraryDirectories);$(SolutionDir)vendor\Lua-x64-master\lib</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Debug\Core.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Debug\GeometricTools.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Debug\Physic.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Debug\Rendering.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Debug\Sound.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\assimp-5.0.1\build\code\Debug\assimp-vc142-mtd.dll" "$(OutDir)"
+xcopy /y /d /i /s "$(SolutionDir)Editor\Assets" "$(OutDir)Assets"
+xcopy /y /d /i /s "$(SolutionDir)Editor\Resources" "$(OutDir)Resources"
+xcopy /y /d "$(SolutionDir)Editor\imgui.ini" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\Lua-x64-master\lua5.3.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\PhysX\include;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(ProjectDir)include;$(SolutionDir)Core\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Physic\include;$(SolutionDir)Rendering\include;$(SolutionDir)Sound\include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)vendor\Lua-x64-master\include;$(SolutionDir)vendor\LuaBridge-master\Source\LuaBridge;$(SolutionDir)vendor\LuaBridge-master\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Core.lib;GeometricTools.lib;Physic.lib;Rendering.lib;Sound.lib;libMaths.lib;lua5.3.lib;glfw3dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)vendor\libMaths\Release;%(AdditionalLibraryDirectories);$(SolutionDir)vendor\Lua-x64-master\lib;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)x64\Release\Core.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Release\GeometricTools.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Release\Physic.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Release\Rendering.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Release\Sound.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\assimp-5.0.1\build\code\Release\assimp-vc142-mt.dll" "$(OutDir)"
+xcopy /y /d /i /s "$(SolutionDir)Editor\Assets" "$(OutDir)Assets"
+xcopy /y /d /i /s "$(SolutionDir)Editor\Resources" "$(OutDir)Resources"
+xcopy /y /d "$(SolutionDir)Editor\imgui.ini" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\Lua-x64-master\lua5.3.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_SHIPPING</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\PhysX\include;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(ProjectDir)include;$(SolutionDir)Core\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Physic\include;$(SolutionDir)Rendering\include;$(SolutionDir)Sound\include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)vendor\Lua-x64-master\include;$(SolutionDir)vendor\LuaBridge-master\Source\LuaBridge;$(SolutionDir)vendor\LuaBridge-master\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Core.lib;GeometricTools.lib;Physic.lib;Rendering.lib;Sound.lib;libMaths.lib;lua5.3.lib;glfw3dll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)vendor\libMaths\Release;%(AdditionalLibraryDirectories);$(SolutionDir)vendor\Lua-x64-master\lib;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Release\Core.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Release\GeometricTools.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Release\Physic.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Release\Rendering.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)x64\Game_Shipping_Release\Sound.dll" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\assimp-5.0.1\build\code\Release\assimp-vc142-mt.dll" "$(OutDir)"
+xcopy /y /d /i /s "$(SolutionDir)Editor\Assets" "$(OutDir)Assets"
+xcopy /y /d /i /s "$(SolutionDir)Editor\Resources" "$(OutDir)Resources"
+xcopy /y /d "$(SolutionDir)Editor\imgui.ini" "$(OutDir)"
+xcopy /y /d "$(SolutionDir)vendor\Lua-x64-master\lua5.3.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="src\Component.cpp" />
+    <ClCompile Include="src\Components\Camera.cpp" />
+    <ClCompile Include="src\Components\HUD\HUDComponent.cpp" />
+    <ClCompile Include="src\Components\HUD\Image.cpp" />
+    <ClCompile Include="src\Components\HUD\Text.cpp" />
+    <ClCompile Include="src\Components\Lights\Light.cpp" />
+    <ClCompile Include="src\Components\CollisionBox.cpp" />
+    <ClCompile Include="src\Components\CollisionCapsule.cpp" />
+    <ClCompile Include="src\Components\CollisionMesh.cpp" />
+    <ClCompile Include="src\Components\CollisionShapeComponent.cpp" />
+    <ClCompile Include="src\Components\Sound\SoundEmitter.cpp" />
+    <ClCompile Include="src\Components\CollisionSphere.cpp" />
+    <ClCompile Include="src\Components\Model.cpp" />
+    <ClCompile Include="src\Components\RigidBody.cpp" />
+    <ClCompile Include="src\Components\RigidStatic.cpp" />
+    <ClCompile Include="src\Components\Scripting\Script.cpp" />
+    <ClCompile Include="src\EditorApp.cpp" />
+    <ClCompile Include="src\EditorConsoleLogger.cpp" />
+    <ClCompile Include="src\GameObject.cpp" />
+    <ClCompile Include="src\Logger\ConsoleLogger.cpp" />
+    <ClCompile Include="src\Logger\FileLogger.cpp" />
+    <ClCompile Include="src\ProjectSave.cpp" />
+    <ClCompile Include="src\ResourceManager\MainResourceManager.cpp" />
+    <ClCompile Include="src\ResourceManager\MaterialManager.cpp" />
+    <ClCompile Include="src\ResourceManager\MeshManager.cpp" />
+    <ClCompile Include="src\ResourceManager\TextureViewManager.cpp" />
+    <ClCompile Include="src\SceneManager.cpp" />
+    <ClCompile Include="src\Scripting\LuaForceMode.cpp" />
+    <ClCompile Include="src\Scripting\LuaInputEnum.cpp" />
+    <ClCompile Include="src\Scripting\LuaInputManager.cpp" />
+    <ClCompile Include="src\Scripting\LuaLightType.cpp" />
+    <ClCompile Include="src\Scripting\LuaLog.cpp" />
+    <ClCompile Include="src\Scripting\LuaQuaternion.cpp" />
+    <ClCompile Include="src\Scripting\LuaRaycast.cpp" />
+    <ClCompile Include="src\Scripting\LuaRaycastHit.cpp" />
+    <ClCompile Include="src\Scripting\LuaRaycastHitBuffer.cpp" />
+    <ClCompile Include="src\Scripting\LuaScene.cpp" />
+    <ClCompile Include="src\Scripting\LuaSceneManager.cpp" />
+    <ClCompile Include="src\Scripting\LuaVec3.cpp" />
+    <ClCompile Include="src\Scripting\LuaVec4.cpp" />
+    <ClCompile Include="src\Scripting\ScriptManager.cpp" />
+    <ClCompile Include="src\Shipping\ShippingSettings.cpp" />
+    <ClCompile Include="src\Transform.cpp" />
+    <ClCompile Include="src\UI\AssetsWindow.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeCamera.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeCollisionBox.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeCollisionCapsule.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeCollisionConvex.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeCollisionSphere.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeImage.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeLight.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeModel.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeRigidBody.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeRigidStatic.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeScript.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeSoundEmitter.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeText.cpp" />
+    <ClCompile Include="src\UI\Components\UINodeTransform.cpp" />
+    <ClCompile Include="src\UI\ContentsWindow.cpp" />
+    <ClCompile Include="src\UI\HUDDesigner.cpp" />
+    <ClCompile Include="src\UI\InspectorWindow.cpp" />
+    <ClCompile Include="src\UI\LogWindow.cpp" />
+    <ClCompile Include="src\UI\SceneWindow.cpp" />
+    <ClCompile Include="src\UI\Toolbar.cpp" />
+    <ClCompile Include="src\UI\UIEditor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Component.h" />
+    <ClInclude Include="include\Components\Camera.h" />
+    <ClInclude Include="include\Components\HUD\HUDComponent.h" />
+    <ClInclude Include="include\Components\HUD\Image.h" />
+    <ClInclude Include="include\Components\HUD\Text.h" />
+    <ClInclude Include="include\Components\Lights\Light.h" />
+    <ClInclude Include="include\Components\CollisionBox.h" />
+    <ClInclude Include="include\Components\CollisionCapsule.h" />
+    <ClInclude Include="include\Components\CollisionMesh.h" />
+    <ClInclude Include="include\Components\CollisionShapeComponent.h" />
+    <ClInclude Include="include\Components\Sound\SoundEmitter.h" />
+    <ClInclude Include="include\Components\CollisionSphere.h" />
+    <ClInclude Include="include\Components\Model.h" />
+    <ClInclude Include="include\Components\RigidBody.h" />
+    <ClInclude Include="include\Components\RigidStatic.h" />
+    <ClInclude Include="include\Components\Scripting\Script.h" />
+    <ClInclude Include="include\EditorApp.h" />
+    <ClInclude Include="include\EditorConsoleLogger.h" />
+    <ClInclude Include="include\EngineState.h" />
+    <ClInclude Include="include\FileLogger.h" />
+    <ClInclude Include="include\GameObject.h" />
+    <ClInclude Include="include\Logger\ConsoleLogger.h" />
+    <ClInclude Include="include\ProjectSave.h" />
+    <ClInclude Include="include\ResourceManager\MainResourceManager.h" />
+    <ClInclude Include="include\ResourceManager\MaterialManager.h" />
+    <ClInclude Include="include\ResourceManager\MeshManager.h" />
+    <ClInclude Include="include\ResourceManager\TextureViewManager.h" />
+    <ClInclude Include="include\SceneManager.h" />
+    <ClInclude Include="include\Scripting\LuaForceMode.h" />
+    <ClInclude Include="include\Scripting\LuaInputEnum.h" />
+    <ClInclude Include="include\Scripting\LuaInputManager.h" />
+    <ClInclude Include="include\Scripting\LuaLightType.h" />
+    <ClInclude Include="include\Scripting\LuaLog.h" />
+    <ClInclude Include="include\Scripting\LuaQuaternion.h" />
+    <ClInclude Include="include\Scripting\LuaRaycast.h" />
+    <ClInclude Include="include\Scripting\LuaRaycastHit.h" />
+    <ClInclude Include="include\Scripting\LuaRaycastHitBuffer.h" />
+    <ClInclude Include="include\Scripting\LuaScene.h" />
+    <ClInclude Include="include\Scripting\LuaSceneManager.h" />
+    <ClInclude Include="include\Scripting\LuaVec3.h" />
+    <ClInclude Include="include\Scripting\LuaVec4.h" />
+    <ClInclude Include="include\Scripting\ScriptManager.h" />
+    <ClInclude Include="include\Shipping\ShippingSettings.h" />
+    <ClInclude Include="include\Transform.h" />
+    <ClInclude Include="include\UI\AssetsWindow.h" />
+    <ClInclude Include="include\UI\Components\UINodeCamera.h" />
+    <ClInclude Include="include\UI\Components\UINodeCollision.h" />
+    <ClInclude Include="include\UI\Components\UINodeCollisionBox.h" />
+    <ClInclude Include="include\UI\Components\UINodeCollisionCapsule.h" />
+    <ClInclude Include="include\UI\Components\UINodeCollisionConvex.h" />
+    <ClInclude Include="include\UI\Components\UINodeCollisionSphere.h" />
+    <ClInclude Include="include\UI\Components\UINodeHUD.h" />
+    <ClInclude Include="include\UI\Components\UINodeImage.h" />
+    <ClInclude Include="include\UI\Components\UINodeLight.h" />
+    <ClInclude Include="include\UI\Components\UINodeModel.h" />
+    <ClInclude Include="include\UI\Components\UINodeRigidBody.h" />
+    <ClInclude Include="include\UI\Components\UINodeRigidStatic.h" />
+    <ClInclude Include="include\UI\Components\UINodeScript.h" />
+    <ClInclude Include="include\UI\Components\UINodeSoundEmitter.h" />
+    <ClInclude Include="include\UI\Components\UINodeText.h" />
+    <ClInclude Include="include\UI\Components\UINodeComponent.h" />
+    <ClInclude Include="include\UI\Components\UINodeTransform.h" />
+    <ClInclude Include="include\UI\ContentsWindow.h" />
+    <ClInclude Include="include\UI\HUDDesigner.h" />
+    <ClInclude Include="include\UI\InspectorWindow.h" />
+    <ClInclude Include="include\UI\LogWindow.h" />
+    <ClInclude Include="include\UI\SceneWindow.h" />
+    <ClInclude Include="include\UI\Toolbar.h" />
+    <ClInclude Include="include\UI\UIEditor.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

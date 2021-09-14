@@ -1,0 +1,5 @@
+{
+  "assetPath": "Assets\\Materials\\plantMaterial.mat",
+  "albedoMap": "Assets/Models/IndoorPlant/textures/indoorPlant.jpg",
+  "normalMap": "Assets/Models/IndoorPlant/textures/indoorPlantNormal.jpg"
+}

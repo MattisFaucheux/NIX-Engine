@@ -1,0 +1,64 @@
+<scene>
+    <game_object name="Root" tag="Untagged" isActive="true">
+        <transform>
+            <position x="0" y="0" z="0"/>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <scale x="1" y="1" z="1"/>
+        </transform>
+        <game_object name="Button" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="0" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <image z_order="0" pos_x="0" pos_y="0" anchor_width="0.5" anchor_height="0.5" path="Default Texture" width="300" height="100"/>
+            <text z_order="1" pos_x="0" pos_y="0" anchor_width="0.5" anchor_height="0.5" text="Play" font="Default Font" size="51">
+                <color x="1" y="1" z="1" w="1"/>
+            </text>
+        </game_object>
+        <game_object name="Title" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="0" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <text z_order="0" pos_x="0" pos_y="0" anchor_width="0.5" anchor_height="0.25799999" text="NIX ENGINE DEMO" font="Default Font" size="78">
+                <color x="1" y="1" z="1" w="1"/>
+            </text>
+        </game_object>
+        <game_object name="Camera" tag="MainCamera" isActive="true">
+            <transform>
+                <position x="0" y="0" z="-15"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <camera far="1000" fov="45" speed="10" zoom_sensitivity="0.1" yaw="90" pitch="0"/>
+        </game_object>
+        <game_object name="Light" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="0" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <light light_type="1" inner_cone="0.89999998" outer_cone="0.99000001">
+                <ambient x="0.69999999" y="0.89999998" z="0.89999998" w="0"/>
+                <diffuse x="1" y="1" z="1" w="0"/>
+                <specular x="1" y="1" z="1" w="0"/>
+                <position x="0" y="0" z="0" w="0"/>
+                <direction x="0" y="0" z="1" w="0"/>
+                <attenuation x="1" y="0.090000004" z="0.032000002" w="0"/>
+            </light>
+        </game_object>
+        <game_object name="ButtonHitbox" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="0" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <image z_order="2" pos_x="0" pos_y="0" anchor_width="0.5" anchor_height="0.5" path="Assets\Images\HD_transparent_picture.png" width="300" height="100"/>
+            <scripts scripts_nb="1">
+                <script script_path="Assets\Scripts\Main Menu\LaunchGame.lua"/>
+            </scripts>
+        </game_object>
+    </game_object>
+</scene>

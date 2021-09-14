@@ -1,0 +1,47 @@
+<scene>
+    <game_object name="Root" tag="Untagged" isActive="true">
+        <transform>
+            <position x="0" y="0" z="0"/>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <scale x="1" y="1" z="1"/>
+        </transform>
+        <game_object name="Camera" tag="MainCamera" isActive="true">
+            <transform>
+                <position x="0" y="0" z="-15"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <camera far="1000" fov="45" speed="10" zoom_sensitivity="0.1" yaw="90" pitch="0"/>
+        </game_object>
+        <game_object name="Light" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="0" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <light light_type="1" inner_cone="0.89999998" outer_cone="0.99000001">
+                <ambient x="0.69999999" y="0.89999998" z="0.89999998" w="0"/>
+                <diffuse x="1" y="1" z="1" w="0"/>
+                <specular x="1" y="1" z="1" w="0"/>
+                <position x="0" y="0" z="0" w="0"/>
+                <direction x="0" y="0" z="1" w="0"/>
+                <attenuation x="1" y="0.090000004" z="0.032000002" w="0"/>
+            </light>
+        </game_object>
+        <game_object name="Cube" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="-3" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="10" y="1" z="10"/>
+            </transform>
+            <model mesh_path="Cube" material_path="Default Material"/>
+            <collision_mesh is_trigger="false" is_query_test_enable="true">
+                <scale x="10" y="1" z="10"/>
+            </collision_mesh>
+            <rigid_static is_active="true">
+                <position x="0" y="-3" z="0"/>
+                <rotation x="-0" y="-0" z="-0" w="1"/>
+            </rigid_static>
+        </game_object>
+    </game_object>
+</scene>

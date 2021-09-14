@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game_Shipping_Debug|Win32">
+      <Configuration>Game_Shipping_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game_Shipping_Debug|x64">
+      <Configuration>Game_Shipping_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game_Shipping_Release|Win32">
+      <Configuration>Game_Shipping_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game_Shipping_Release|x64">
+      <Configuration>Game_Shipping_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{8f5fca74-f222-40c1-a1b1-b4ea854d4045}</ProjectGuid>
+    <RootNamespace>Rendering</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;RENDERING_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(SolutionDir)vendor\stb_image;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)Window\include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Core\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Lib;$(SolutionDir)vendor\libMaths\Debug;$(SolutionDir)x64\Debug;%(AdditionalLibraryDirectories);$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;libMaths.lib;GeometricTools.lib;glfw3.lib;Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;RENDERING_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(SolutionDir)vendor\stb_image;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)Window\include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Core\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Lib;$(SolutionDir)vendor\libMaths\Debug;$(SolutionDir)x64\Debug;%(AdditionalLibraryDirectories);$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;libMaths.lib;GeometricTools.lib;glfw3.lib;Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;RENDERING_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(SolutionDir)vendor\stb_image;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)Window\include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)GeometricTools\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Lib;$(SolutionDir)vendor\libMaths\Release;$(SolutionDir)x64\Release;%(AdditionalLibraryDirectories);$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;libMaths.lib;GeometricTools.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;RENDERING_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(SolutionDir)vendor\stb_image;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)Window\include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)GeometricTools\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Lib;$(SolutionDir)vendor\libMaths\Release;$(SolutionDir)x64\Release;%(AdditionalLibraryDirectories);$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;libMaths.lib;GeometricTools.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;RENDERING_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(SolutionDir)vendor\stb_image;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)Window\include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Core\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Lib;$(SolutionDir)vendor\libMaths\Debug;$(SolutionDir)$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;libMaths.lib;GeometricTools.lib;glfw3dll.lib;Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019\glfw3.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;RENDERING_EXPORTS;_WINDOWS;_USRDLL;_SHIPPING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(SolutionDir)vendor\stb_image;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)Window\include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Core\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Lib;$(SolutionDir)vendor\libMaths\Debug;$(SolutionDir)$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;libMaths.lib;GeometricTools.lib;glfw3dll.lib;Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019\glfw3.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;RENDERING_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(SolutionDir)vendor\stb_image;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)Window\include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Core\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Lib;$(SolutionDir)vendor\libMaths\Release;$(SolutionDir)$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;libMaths.lib;GeometricTools.lib;glfw3dll.lib;Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019\glfw3.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;RENDERING_EXPORTS;_WINDOWS;_USRDLL;_SHIPPING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;$(SolutionDir)vendor\stb_image;$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Include;$(SolutionDir)vendor\libMaths\source;$(SolutionDir)Window\include;$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)GeometricTools\include;$(SolutionDir)Core\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)vendor\VulkanSDK\1.2.162.0\Lib;$(SolutionDir)vendor\libMaths\Release;$(SolutionDir)$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories);$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;libMaths.lib;GeometricTools.lib;glfw3dll.lib;Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)vendor\glfw-3.3.2.bin.WIN64\lib-vc2019\glfw3.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="include\API\DLLExportRendering.h" />
+    <ClInclude Include="include\Camera.h" />
+    <ClInclude Include="include\Camera\CameraManager.h" />
+    <ClInclude Include="include\CommandBuffers.h" />
+    <ClInclude Include="include\CommandPool.h" />
+    <ClInclude Include="include\Context\Context.h" />
+    <ClInclude Include="include\Context\Device\Device.h" />
+    <ClInclude Include="include\Context\Device\LogicalDevice.h" />
+    <ClInclude Include="include\Context\Device\PhysicalDevice.h" />
+    <ClInclude Include="include\Context\Instance.h" />
+    <ClInclude Include="include\Context\Surface.h" />
+    <ClInclude Include="include\Debug\Debug.h" />
+    <ClInclude Include="include\Descriptors\DescriptorPool.h" />
+    <ClInclude Include="include\Descriptors\DescriptorSetLayout.h" />
+    <ClInclude Include="include\Descriptors\DescriptorSets.h" />
+    <ClInclude Include="include\DrawableObject\DrawableObject.h" />
+    <ClInclude Include="include\DrawableObject\DrawableObjectsManager.h" />
+    <ClInclude Include="include\DrawableObject\RenderingMesh.h" />
+    <ClInclude Include="include\Light\ELightType.h" />
+    <ClInclude Include="include\Light\Light.h" />
+    <ClInclude Include="include\Light\LightsManager.h" />
+    <ClInclude Include="include\Material\Material.h" />
+    <ClInclude Include="include\Material\Texture.h" />
+    <ClInclude Include="include\Material\TextureManager.h" />
+    <ClInclude Include="include\Material\TextureSampler.h" />
+    <ClInclude Include="include\Material\TextureView.h" />
+    <ClInclude Include="include\Memory\Buffer.h" />
+    <ClInclude Include="include\Memory\DeviceMemory.h" />
+    <ClInclude Include="include\Memory\EBufferType.h" />
+    <ClInclude Include="include\GraphicsPipeline.h" />
+    <ClInclude Include="include\ImGUI\imconfig.h" />
+    <ClInclude Include="include\ImGUI\imgui.h" />
+    <ClInclude Include="include\ImGUI\imgui_impl_glfw.h" />
+    <ClInclude Include="include\ImGUI\imgui_impl_vulkan.h" />
+    <ClInclude Include="include\ImGUI\imgui_internal.h" />
+    <ClInclude Include="include\ImGUI\imstb_rectpack.h" />
+    <ClInclude Include="include\ImGUI\imstb_textedit.h" />
+    <ClInclude Include="include\ImGUI\imstb_truetype.h" />
+    <ClInclude Include="include\RenderPass\OffScreenRenderPass.h" />
+    <ClInclude Include="include\RenderPass\RenderPass.h" />
+    <ClInclude Include="include\Shaders\EShaderType.h" />
+    <ClInclude Include="include\Shaders\Shader.h" />
+    <ClInclude Include="include\Shaders\ShaderStage.h" />
+    <ClInclude Include="include\SwapChain\SwapChain.h" />
+    <ClInclude Include="include\SynchronizationObjects.h" />
+    <ClInclude Include="include\Tools\File.h" />
+    <ClInclude Include="include\Tools\Initializers.h" />
+    <ClInclude Include="include\Tools\Version.h" />
+    <ClInclude Include="include\UI\FontsManager.h" />
+    <ClInclude Include="include\UI\UI.h" />
+    <ClInclude Include="include\UI\UIManager.h" />
+    <ClInclude Include="include\Windowing\EInputGamepadAxis.h" />
+    <ClInclude Include="include\Windowing\EInputGamepadButton.h" />
+    <ClInclude Include="include\Windowing\EInputKeyboard.h" />
+    <ClInclude Include="include\Windowing\EInputMouse.h" />
+    <ClInclude Include="include\Windowing\EInputState.h" />
+    <ClInclude Include="include\Windowing\InputDefines.h" />
+    <ClInclude Include="include\Windowing\InputManager.h" />
+    <ClInclude Include="include\Windowing\Window.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Camera\CameraManager.cpp" />
+    <ClCompile Include="src\CommandBuffers.cpp" />
+    <ClCompile Include="src\Context\Context.cpp" />
+    <ClCompile Include="src\Context\Device\Device.cpp" />
+    <ClCompile Include="src\Context\Device\LogicalDevice.cpp" />
+    <ClCompile Include="src\Context\Device\PhysicalDevice.cpp" />
+    <ClCompile Include="src\Context\Instance.cpp" />
+    <ClCompile Include="src\Context\Surface.cpp" />
+    <ClCompile Include="src\Debug\Debug.cpp" />
+    <ClCompile Include="src\Descriptors\DescriptorPool.cpp" />
+    <ClCompile Include="src\Descriptors\DescriptorSetLayout.cpp" />
+    <ClCompile Include="src\Descriptors\DescriptorSets.cpp" />
+    <ClCompile Include="src\DrawableObject\DrawableObject.cpp" />
+    <ClCompile Include="src\DrawableObject\DrawableObjectsManager.cpp" />
+    <ClCompile Include="src\DrawableObject\RenderingMesh.cpp" />
+    <ClCompile Include="src\GraphicsPipeline.cpp" />
+    <ClCompile Include="src\ImGUI\imgui.cpp">
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Level4</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Game_Shipping_Release|x64'">Level4</WarningLevel>
+    </ClCompile>
+    <ClCompile Include="src\ImGUI\imgui_demo.cpp" />
+    <ClCompile Include="src\ImGUI\imgui_draw.cpp" />
+    <ClCompile Include="src\ImGUI\imgui_impl_glfw.cpp" />
+    <ClCompile Include="src\ImGUI\imgui_impl_vulkan.cpp" />
+    <ClCompile Include="src\ImGUI\imgui_tables.cpp" />
+    <ClCompile Include="src\ImGUI\imgui_widgets.cpp" />
+    <ClCompile Include="src\Lights\Light.cpp" />
+    <ClCompile Include="src\Lights\LightsManager.cpp" />
+    <ClCompile Include="src\Material\Material.cpp" />
+    <ClCompile Include="src\Material\Texture.cpp" />
+    <ClCompile Include="src\Material\TextureManager.cpp" />
+    <ClCompile Include="src\Material\TextureSampler.cpp" />
+    <ClCompile Include="src\Material\TextureView.cpp" />
+    <ClCompile Include="src\Memory\Buffer.cpp" />
+    <ClCompile Include="src\Memory\DeviceMemory.cpp" />
+    <ClCompile Include="src\CommandPool.cpp" />
+    <ClCompile Include="src\RenderPass\OffScreenRenderPass.cpp" />
+    <ClCompile Include="src\RenderPass\RenderPass.cpp" />
+    <ClCompile Include="src\Shaders\Shader.cpp" />
+    <ClCompile Include="src\SwapChain\SwapChain.cpp" />
+    <ClCompile Include="src\SynchronizationObjects.cpp" />
+    <ClCompile Include="src\Tools\File.cpp" />
+    <ClCompile Include="src\Tools\Initializers.cpp" />
+    <ClCompile Include="src\UI\FontsManager.cpp" />
+    <ClCompile Include="src\UI\UI.cpp" />
+    <ClCompile Include="src\UI\UIManager.cpp" />
+    <ClCompile Include="src\Windowing\InputManager.cpp" />
+    <ClCompile Include="src\Windowing\Window.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

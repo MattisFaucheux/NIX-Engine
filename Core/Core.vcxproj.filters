@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Log">
+      <UniqueIdentifier>{19b70c25-3070-4349-abcd-5ad0cf146962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Log">
+      <UniqueIdentifier>{c1a606a6-6e8f-46c2-969c-bacb0c097bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResourceManager">
+      <UniqueIdentifier>{4d6a5c8f-f6c3-4ae6-beeb-9012065b585b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Serialization">
+      <UniqueIdentifier>{6ba85217-c0b0-4d9a-b72f-9017a2b3a5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serialization">
+      <UniqueIdentifier>{3bacdbaf-bc73-4083-b2b0-e29819a84e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External">
+      <UniqueIdentifier>{4dea4743-44b3-4f9a-a1d7-49e58dfc2368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External\tinyxml">
+      <UniqueIdentifier>{cd0dc8f8-421c-4c93-a9b8-823f7fb696fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{eb10e4e8-ddf7-452c-ac7a-41c39edbd0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Serialization\SceneSave">
+      <UniqueIdentifier>{bf7936dc-8647-4c25-b579-c164b8317d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Serialization\AssetsParsing">
+      <UniqueIdentifier>{e460adfa-91f7-4abf-bcee-9155d9325226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External\rapidjson">
+      <UniqueIdentifier>{d353a0ae-7fcf-43e2-95b3-2cd43c0fd19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serialization\AssetsParsing">
+      <UniqueIdentifier>{3dea97d9-eede-4d87-b276-a9ff77a1446a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serialization\SceneSave">
+      <UniqueIdentifier>{60f9e548-aad7-4082-b571-20b9d918aaac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External">
+      <UniqueIdentifier>{12634c5b-568d-479e-b5f2-fe9fd0ea83cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External\tinyxml">
+      <UniqueIdentifier>{0efa190c-3fc4-489a-b133-a4e7b2dca9cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Log\Logger.h">
+      <Filter>Header Files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Log\ILoggerClient.h">
+      <Filter>Header Files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\TResourceManager.h">
+      <Filter>Header Files\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Serialization\AssetsParsing\JSonParser.h">
+      <Filter>Header Files\Serialization\AssetsParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Serialization\AssetsParsing\ParseMaterial.h">
+      <Filter>Header Files\Serialization\AssetsParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\tinyxml\tinyxml2.h">
+      <Filter>Header Files\External\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\tinyxml\XMLParser.h">
+      <Filter>Header Files\External\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\allocators.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\cursorstreamwrapper.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\document.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\encodedstream.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\encodings.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\filereadstream.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\filewritestream.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\fwd.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\istreamwrapper.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\memorybuffer.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\memorystream.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\ostreamwrapper.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\pointer.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\prettywriter.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\rapidjson.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\reader.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\schema.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\stream.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\stringbuffer.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\External\rapidjson\writer.h">
+      <Filter>Header Files\External\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="include\API\DLLExportCore.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Serialization\SceneSave\Serializer.h">
+      <Filter>Header Files\Serialization\SceneSave</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Log\Logger.cpp">
+      <Filter>Source Files\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\External\tinyxml\tinyxml2.cpp">
+      <Filter>Source Files\External\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\External\tinyxml\XMLParser.cpp">
+      <Filter>Source Files\External\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\AssetsParsing\JSonParser.cpp">
+      <Filter>Source Files\Serialization\AssetsParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\AssetsParsing\ParseMaterial.cpp">
+      <Filter>Source Files\Serialization\AssetsParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\SceneSave\Serializer.cpp">
+      <Filter>Source Files\Serialization\SceneSave</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Editor\Assets\SaveScene\test.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

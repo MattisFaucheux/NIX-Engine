@@ -1,0 +1,865 @@
+1>------ Build started: Project: Editor, Configuration: Game_Shipping_Release x64 ------
+1>ShippingSettings.cpp
+1>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Editor.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Editor.exp
+1>Generating code
+1>0 of 2324 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+1>  0 functions were new in current compilation
+1>  2 functions had inline decision re-evaluated but remain unchanged
+1>Finished generating code
+1>Editor.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Editor.exe
+1>0 File(s) copied
+1>0 File(s) copied
+1>0 File(s) copied
+1>0 File(s) copied
+1>0 File(s) copied
+1>0 File(s) copied
+1>Z:\Engine\EnginPasReel\Editor\Assets\Materials\redMaterial.mat
+1>1 File(s) copied
+1>Z:\Engine\EnginPasReel\Editor\Resources\Scripts\shippingScript.bat
+1>1 File(s) copied
+1>0 File(s) copied
+1>0 File(s) copied
+========== Build: 1 succeeded, 0 failed, 5 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: Core, Configuration: Game_Shipping_Release x64 ------
+2>------ Build started: Project: Physic, Configuration: Game_Shipping_Release x64 ------
+1>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Core.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Core.exp
+2>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(876,5): error MSB6006: "link.exe" exited with code 1181.
+2>LINK : fatal error LNK1181: cannot open input file 'Core.lib'
+2>Done building project "Physic.vcxproj" -- FAILED.
+1>Generating code
+1>Previous IPDB not found, fall back to full compilation.
+1>All 1008 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+1>Finished generating code
+1>Core.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Core.dll
+3>------ Build started: Project: GeometricTools, Configuration: Game_Shipping_Release x64 ------
+4>------ Build started: Project: Sound, Configuration: Game_Shipping_Release x64 ------
+4>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Sound.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Sound.exp
+3>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\GeometricTools.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\GeometricTools.exp
+3>Generating code
+3>Previous IPDB not found, fall back to full compilation.
+4>Generating code
+4>Previous IPDB not found, fall back to full compilation.
+4>All 266 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+4>Finished generating code
+3>All 517 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+4>Sound.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Sound.dll
+3>Finished generating code
+4>Z:\Engine\EnginPasReel\vendor\fmod\core\lib\fmod.dll
+4>1 File(s) copied
+3>GeometricTools.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\GeometricTools.dll
+5>------ Build started: Project: Rendering, Configuration: Game_Shipping_Release x64 ------
+5>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Rendering.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Rendering.exp
+5>Generating code
+5>Previous IPDB not found, fall back to full compilation.
+5>Z:\Engine\EnginPasReel\Rendering\src\Debug\Debug.cpp(31): warning C4702: unreachable code
+5>Z:\Engine\EnginPasReel\Rendering\src\Debug\Debug.cpp(34): warning C4702: unreachable code
+5>Z:\Engine\EnginPasReel\Rendering\src\Debug\Debug.cpp(41): warning C4702: unreachable code
+5>Z:\Engine\EnginPasReel\Rendering\src\Debug\Debug.cpp(43): warning C4702: unreachable code
+5>All 6137 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+5>Finished generating code
+5>Rendering.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Rendering.dll
+5>Done building project "Rendering.vcxproj".
+6>------ Build started: Project: Editor, Configuration: Game_Shipping_Release x64 ------
+6>LINK : fatal error LNK1181: cannot open input file 'Physic.lib'
+6>Done building project "Editor.vcxproj" -- FAILED.
+========== Build: 4 succeeded, 2 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: Core, Configuration: Game_Shipping_Debug x64 ------
+2>------ Build started: Project: Physic, Configuration: Game_Shipping_Debug x64 ------
+1>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Core.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Core.exp
+2>LINK : fatal error LNK1104: cannot open file 'Core.lib'
+2>Done building project "Physic.vcxproj" -- FAILED.
+1>libMaths.lib(Angle.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Angle.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+1>libMaths.lib(CMath.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(CMath.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+1>libMaths.lib(Quaternion.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Quaternion.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+1>Core.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Core.dll
+1>Done building project "Core.vcxproj".
+3>------ Build started: Project: GeometricTools, Configuration: Game_Shipping_Debug x64 ------
+4>------ Build started: Project: Sound, Configuration: Game_Shipping_Debug x64 ------
+3>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\GeometricTools.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\GeometricTools.exp
+4>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Sound.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Sound.exp
+3>GeometricTools.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\GeometricTools.dll
+4>Sound.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Sound.dll
+5>------ Build started: Project: Rendering, Configuration: Game_Shipping_Debug x64 ------
+4>Z:\Engine\EnginPasReel\vendor\fmod\core\lib\fmodL.dll
+4>1 File(s) copied
+5>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Rendering.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Rendering.exp
+5>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+5>libMaths.lib(Angle.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Angle.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+5>libMaths.lib(CMath.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(CMath.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+5>libMaths.lib(Matrix4.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Matrix4.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+5>libMaths.lib(Quaternion.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Quaternion.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+5>libMaths.lib(Vector3.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Vector3.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+5>Rendering.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Rendering.dll
+5>Done building project "Rendering.vcxproj".
+6>------ Build started: Project: Editor, Configuration: Game_Shipping_Debug x64 ------
+6>Editor.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Camera.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Light.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Model.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>SoundEmitter.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>EditorApp.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(173,54): warning C4100: 'deltaTime': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(212,56): warning C4100: 'deltaTime': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(273,55): warning C4100: 'deltaTime': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(322,113): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(322,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(333,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(331,57): warning C4100: 'xOffSet': unreferenced formal parameter
+6>GameObject.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\GameObject.cpp(62,29): warning C4100: 'sceneId': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\GameObject.cpp(270,22): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+6>MaterialManager.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>SceneManager.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>ShippingSettings.cpp
+6>AssetsWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>InspectorWindowCamera.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>InspectorWindowSoundEmitter.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>ContentsWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>InspectorWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\UI\InspectorWindow.cpp(44,12): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+6>InspectorWindowModel.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>SceneWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Toolbar.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Generating Code...
+6>Z:\Engine\EnginPasReel\Editor\src\UI\InspectorWindow.cpp(451): warning C4172: returning address of local variable or temporary: empty
+6>LINK : fatal error LNK1104: cannot open file 'Physic.lib'
+6>Done building project "Editor.vcxproj" -- FAILED.
+========== Build: 4 succeeded, 2 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: Core, Configuration: Game_Shipping_Debug x64 ------
+2>------ Build started: Project: Physic, Configuration: Game_Shipping_Debug x64 ------
+1>pch.cpp
+2>pch.cpp
+1>dllmain.cpp
+2>dllmain.cpp
+1>tinyxml2.cpp
+2>CollisionBox.cpp
+1>XMLParser.cpp
+1>Logger.cpp
+2>CollisionCapsule.cpp
+2>CollisionMesh.cpp
+1>JSonParser.cpp
+2>CollisionShape.cpp
+1>ParseMaterial.cpp
+2>CollisionSphere.cpp
+1>SceneSerializer.cpp
+2>PhysicScene.cpp
+1>Generating Code...
+2>PhysicSimulation.cpp
+1>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Core.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Core.exp
+1>libMaths.lib(Angle.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Angle.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+1>libMaths.lib(CMath.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(CMath.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+1>libMaths.lib(Quaternion.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Quaternion.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+1>Core.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Core.dll
+1>Done building project "Core.vcxproj".
+2>PhysicSimulationCallback.cpp
+3>------ Build started: Project: GeometricTools, Configuration: Game_Shipping_Debug x64 ------
+4>------ Build started: Project: Sound, Configuration: Game_Shipping_Debug x64 ------
+3>pch.cpp
+4>pch.cpp
+2>PhysicSimulationFilterShader.cpp
+4>dllmain.cpp
+3>dllmain.cpp
+3>Mesh.cpp
+4>Z:\Engine\EnginPasReel\Sound\dllmain.cpp(6,31): warning C4100: 'lpReserved': unreferenced formal parameter
+4>Z:\Engine\EnginPasReel\Sound\dllmain.cpp(4,32): warning C4100: 'hModule': unreferenced formal parameter
+4>Channel.cpp
+2>Raycast.cpp
+4>Sound.cpp
+2>RaycastHit.cpp
+3>MeshImporter.cpp
+4>SoundManager.cpp
+3>Generating Code...
+2>RaycastHitBuffer.cpp
+3>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\GeometricTools.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\GeometricTools.exp
+4>SoundSystem.cpp
+3>GeometricTools.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\GeometricTools.dll
+2>RigidBody.cpp
+5>------ Build started: Project: Rendering, Configuration: Game_Shipping_Debug x64 ------
+4>Generating Code...
+5>pch.cpp
+4>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Sound.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Sound.exp
+5>dllmain.cpp
+5>Camera.cpp
+4>Sound.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Sound.dll
+4>Z:\Engine\EnginPasReel\vendor\fmod\core\lib\fmodL.dll
+4>1 File(s) copied
+4>Done building project "Sound.vcxproj".
+2>RigidStatic.cpp
+5>CameraManager.cpp
+2>Generating Code...
+5>CommandBuffers.cpp
+2>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Physic.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Physic.exp
+2>libMaths.lib(Angle.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Angle.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+2>libMaths.lib(CMath.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(CMath.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+2>libMaths.lib(Quaternion.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Quaternion.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+5>Context.cpp
+2>Physic.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Physic.dll
+2>Z:\Engine\EnginPasReel\vendor\PhysX\lib\debug\PhysX_64.dll
+2>1 File(s) copied
+2>Z:\Engine\EnginPasReel\vendor\PhysX\lib\debug\PhysXCommon_64.dll
+2>1 File(s) copied
+2>Z:\Engine\EnginPasReel\vendor\PhysX\lib\debug\PhysXFoundation_64.dll
+2>1 File(s) copied
+2>Z:\Engine\EnginPasReel\vendor\PhysX\lib\debug\PhysXCooking_64.dll
+2>1 File(s) copied
+2>Done building project "Physic.vcxproj".
+5>Device.cpp
+5>LogicalDevice.cpp
+5>PhysicalDevice.cpp
+5>Instance.cpp
+5>Surface.cpp
+5>Debug.cpp
+5>DescriptorPool.cpp
+5>DescriptorSetLayout.cpp
+5>DescriptorSets.cpp
+5>DrawableObject.cpp
+5>DrawableObjectsManager.cpp
+5>RenderingMesh.cpp
+5>GraphicsPipeline.cpp
+5>imgui.cpp
+5>imgui_demo.cpp
+5>Generating Code...
+5>Compiling...
+5>imgui_draw.cpp
+5>imgui_impl_glfw.cpp
+5>imgui_impl_vulkan.cpp
+5>imgui_tables.cpp
+5>imgui_widgets.cpp
+5>Light.cpp
+5>LightsManager.cpp
+5>Material.cpp
+5>Texture.cpp
+5>TextureManager.cpp
+5>TextureSampler.cpp
+5>TextureView.cpp
+5>Buffer.cpp
+5>DeviceMemory.cpp
+5>CommandPool.cpp
+5>OffScreenRenderPass.cpp
+5>RenderPass.cpp
+5>Shader.cpp
+5>SwapChain.cpp
+5>SynchronizationObjects.cpp
+5>Generating Code...
+5>Compiling...
+5>File.cpp
+5>Initializers.cpp
+5>FontsManager.cpp
+5>UI.cpp
+5>UIManager.cpp
+5>InputManager.cpp
+5>Window.cpp
+5>Generating Code...
+5>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Rendering.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Rendering.exp
+5>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+5>libMaths.lib(Angle.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Angle.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+5>libMaths.lib(CMath.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(CMath.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+5>libMaths.lib(Matrix4.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Matrix4.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+5>libMaths.lib(Quaternion.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Quaternion.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+5>libMaths.lib(Vector3.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Vector3.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+5>Rendering.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Rendering.dll
+5>Done building project "Rendering.vcxproj".
+6>------ Build started: Project: Editor, Configuration: Game_Shipping_Debug x64 ------
+6>Editor.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Component.cpp
+6>Camera.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>HUDComponent.cpp
+6>Z:\Engine\EnginPasReel\Editor\src\Components\HUD\HUDComponent.cpp(138,1): warning C4506: no definition for inline function 'void Engine::Editor::HUDDesigner::Sort(Engine::Editor::HUDComponent *)'
+6>Image.cpp
+6>Text.cpp
+6>Z:\Engine\EnginPasReel\Editor\src\Components\HUD\Text.cpp(11,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+6>Light.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>CollisionBox.cpp
+6>CollisionCapsule.cpp
+6>CollisionMesh.cpp
+6>CollisionShapeComponent.cpp
+6>Z:\Engine\EnginPasReel\Editor\src\Components\CollisionShapeComponent.cpp(18,69): warning C4100: 'data': unreferenced formal parameter
+6>SoundEmitter.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>CollisionSphere.cpp
+6>Model.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>RigidBody.cpp
+6>RigidStatic.cpp
+6>Z:\Engine\EnginPasReel\Editor\src\Components\RigidStatic.cpp(33,70): warning C4100: 'other': unreferenced formal parameter
+6>Script.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>EditorApp.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(173,54): warning C4100: 'deltaTime': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(212,56): warning C4100: 'deltaTime': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(273,55): warning C4100: 'deltaTime': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(322,113): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(322,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(333,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(331,57): warning C4100: 'xOffSet': unreferenced formal parameter
+6>EditorConsoleLogger.cpp
+6>GameObject.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\GameObject.cpp(62,29): warning C4100: 'sceneId': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\GameObject.cpp(270,22): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+6>Generating Code...
+6>Compiling...
+6>ConsoleLogger.cpp
+6>FileLogger.cpp
+6>MainResourceManager.cpp
+6>MaterialManager.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>MeshManager.cpp
+6>TextureViewManager.cpp
+6>SceneManager.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>LuaLog.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>LuaVec3.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>ScriptManager.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>ShippingSettings.cpp
+6>Transform.cpp
+6>AssetsWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>InspectorWindowCamera.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>InspectorWindowSoundEmitter.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>ContentsWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>HUDDesigner.cpp
+6>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\utility(192,1): warning C4244: 'initializing': conversion from 'int' to '_Ty2', possible loss of data
+6>        with
+6>        [
+6>            _Ty2=float
+6>        ]
+6>Z:\Engine\EnginPasReel\Editor\src\UI\HUDDesigner.cpp(88): message : see reference to function template instantiation 'std::pair<std::string,float>::pair<const char*,int&,0>(_Other1 &&,_Other2) noexcept(false)' being compiled
+6>        with
+6>        [
+6>            _Other1=const char *,
+6>            _Other2=int &
+6>        ]
+6>Z:\Engine\EnginPasReel\Editor\src\UI\HUDDesigner.cpp(88): message : see reference to function template instantiation 'std::pair<std::string,float>::pair<const char*,int&,0>(_Other1 &&,_Other2) noexcept(false)' being compiled
+6>        with
+6>        [
+6>            _Other1=const char *,
+6>            _Other2=int &
+6>        ]
+6>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\utility(248,1): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+6>        with
+6>        [
+6>            _Ty=int
+6>        ]
+6>        and
+6>        [
+6>            _Ty2=float
+6>        ]
+6>Z:\Engine\EnginPasReel\Editor\src\UI\HUDDesigner.cpp(90): message : see reference to function template instantiation 'std::pair<std::string,float>::pair<std::string,int,0>(std::pair<std::string,int> &&) noexcept' being compiled
+6>Z:\Engine\EnginPasReel\Editor\src\UI\HUDDesigner.cpp(90): message : see reference to function template instantiation 'std::pair<std::string,float>::pair<std::string,int,0>(std::pair<std::string,int> &&) noexcept' being compiled
+6>InspectorWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\UI\InspectorWindow.cpp(44,12): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+6>InspectorWindowHUD.cpp
+6>InspectorWindowLights.cpp
+6>Generating Code...
+6>Z:\Engine\EnginPasReel\Editor\src\UI\InspectorWindow.cpp(451): warning C4172: returning address of local variable or temporary: empty
+6>Compiling...
+6>InspectorWindowModel.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>InspectorWindowPhysics.cpp
+6>LogWindow.cpp
+6>SceneWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Toolbar.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Generating Code...
+6>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Editor.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Editor.exp
+6>libMaths.lib(Angle.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Angle.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+6>libMaths.lib(CMath.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(CMath.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+6>libMaths.lib(Matrix3.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Matrix3.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+6>libMaths.lib(Matrix4.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Matrix4.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+6>libMaths.lib(Quaternion.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Quaternion.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+6>libMaths.lib(Vector3.obj) : warning LNK4099: PDB 'libMaths.pdb' was not found with 'libMaths.lib(Vector3.obj)' or at 'Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\libMaths.pdb'; linking object as if no debug info
+6>Editor.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Debug\Editor.exe
+6>0 File(s) copied
+6>0 File(s) copied
+6>0 File(s) copied
+6>0 File(s) copied
+6>0 File(s) copied
+6>Z:\Engine\EnginPasReel\vendor\assimp-5.0.1\build\code\Debug\assimp-vc142-mtd.dll
+6>1 File(s) copied
+6>Z:\Engine\EnginPasReel\Editor\Assets\Fonts\data-latin.ttf
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\blueMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\dragonMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\greenMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\leftHandMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\plantMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\redMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Meshes\indoorPlant.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Capsule.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\sphere.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\viking_room.obj
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\Dragon.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Ani_Fire_A.png
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Dragon_Bump_Col2.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Dragon_ground_color.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Dragon_Nor.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Dragon_Nor_mirror2.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Fire_A_2.png
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Floor_C.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Floor_N.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Floor_S.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\indoorPlant.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\indoorPlant.mtl
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\indoorPlant.obj
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\indoorPlant2.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\textures\indoor plant_2_vl.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\textures\indoorPlant.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\textures\indoorPlantNormal.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\textures\1024\indoor plant_2_COL.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\textures\1024\indoor plant_2_NOR.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\leftHand\HAND_C2.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\leftHand\LeftHandRule_Sketchfab.FBX
+6>Z:\Engine\EnginPasReel\Editor\Assets\SaveScene\test.scene
+6>Z:\Engine\EnginPasReel\Editor\Assets\Scripts\test.lua
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\bell.wav
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\explosion.wav
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\getout.ogg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\license.txt
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\MF-3DAYS.S3M
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\MF-PANTS.MOD
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\MF-W-90.XM
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\ophelia.mp3
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\Foot.png
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\Fun.fun
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\MyFBX.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\MyLVL.lvl
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\MyOBJ.obj
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\MyOGG.ogg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\Nature.tga
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\Snow.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Textures\blue.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Textures\green.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Textures\red.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Textures\texture.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Textures\viking_room.png
+6>55 File(s) copied
+6>Z:\Engine\EnginPasReel\Editor\Resources\Fonts\ProggyClean.ttf
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconError.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconExample.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconFBX.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconFolder.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconLVL.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconOBJ.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconOGG.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconTTF.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\PlayOnPauseNext.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\PlayOnPauseOnNext.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\PlayPauseNext.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Materials\defaultMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Materials\failedMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Meshes\Cube.obj
+6>Z:\Engine\EnginPasReel\Editor\Resources\Meshes\Sphere.obj
+6>Z:\Engine\EnginPasReel\Editor\Resources\Scripts\shipGameDebug.bat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Scripts\shipGameRelease.bat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Scripts\shippingScript.bat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\baseFrag.spv
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\baseShader.frag
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\baseShader.vert
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\baseVert.spv
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\compile.bat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\debugPhysic.frag
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\debugPhysic.vert
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\debugPhysicFrag.spv
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\debugPhysicVert.spv
+6>Z:\Engine\EnginPasReel\Editor\Resources\Textures\defaultTexture.jpg
+6>Z:\Engine\EnginPasReel\Editor\Resources\Textures\failedTexture.jpg
+6>30 File(s) copied
+6>Z:\Engine\EnginPasReel\Editor\imgui.ini
+6>1 File(s) copied
+6>Z:\Engine\EnginPasReel\vendor\Lua-x64-master\lua5.3.dll
+6>1 File(s) copied
+6>Done building project "Editor.vcxproj".
+========== Build: 6 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+1>------ Build started: Project: Core, Configuration: Game_Shipping_Release x64 ------
+2>------ Build started: Project: Physic, Configuration: Game_Shipping_Release x64 ------
+1>pch.cpp
+1>dllmain.cpp
+1>tinyxml2.cpp
+2>pch.cpp
+1>XMLParser.cpp
+2>dllmain.cpp
+1>Logger.cpp
+2>CollisionBox.cpp
+2>CollisionCapsule.cpp
+1>JSonParser.cpp
+2>CollisionMesh.cpp
+2>CollisionShape.cpp
+1>ParseMaterial.cpp
+2>CollisionSphere.cpp
+1>SceneSerializer.cpp
+2>PhysicScene.cpp
+1>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Core.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Core.exp
+1>Generating code
+1>Previous IPDB not found, fall back to full compilation.
+2>PhysicSimulation.cpp
+1>All 1008 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+1>Finished generating code
+1>Core.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Core.dll
+2>PhysicSimulationCallback.cpp
+3>------ Build started: Project: GeometricTools, Configuration: Game_Shipping_Release x64 ------
+4>------ Build started: Project: Sound, Configuration: Game_Shipping_Release x64 ------
+3>pch.cpp
+4>pch.cpp
+3>dllmain.cpp
+4>dllmain.cpp
+3>Mesh.cpp
+4>Z:\Engine\EnginPasReel\Sound\dllmain.cpp(6,31): warning C4100: 'lpReserved': unreferenced formal parameter
+4>Z:\Engine\EnginPasReel\Sound\dllmain.cpp(4,32): warning C4100: 'hModule': unreferenced formal parameter
+4>Channel.cpp
+2>PhysicSimulationFilterShader.cpp
+2>Raycast.cpp
+4>Sound.cpp
+3>MeshImporter.cpp
+2>RaycastHit.cpp
+4>SoundManager.cpp
+3>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\GeometricTools.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\GeometricTools.exp
+3>Generating code
+3>Previous IPDB not found, fall back to full compilation.
+4>SoundSystem.cpp
+2>RaycastHitBuffer.cpp
+3>All 517 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+3>Finished generating code
+3>GeometricTools.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\GeometricTools.dll
+5>------ Build started: Project: Rendering, Configuration: Game_Shipping_Release x64 ------
+2>RigidBody.cpp
+5>pch.cpp
+4>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Sound.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Sound.exp
+4>Generating code
+4>Previous IPDB not found, fall back to full compilation.
+4>All 266 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+4>Finished generating code
+5>dllmain.cpp
+5>Camera.cpp
+4>Sound.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Sound.dll
+4>Z:\Engine\EnginPasReel\vendor\fmod\core\lib\fmod.dll
+4>1 File(s) copied
+4>Done building project "Sound.vcxproj".
+2>RigidStatic.cpp
+5>CameraManager.cpp
+5>CommandBuffers.cpp
+2>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Physic.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Physic.exp
+2>Generating code
+2>Previous IPDB not found, fall back to full compilation.
+2>All 412 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+2>Finished generating code
+5>Context.cpp
+2>Physic.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Physic.dll
+2>Z:\Engine\EnginPasReel\vendor\PhysX\lib\release\PhysX_64.dll
+2>1 File(s) copied
+2>Z:\Engine\EnginPasReel\vendor\PhysX\lib\release\PhysXCommon_64.dll
+2>1 File(s) copied
+2>Z:\Engine\EnginPasReel\vendor\PhysX\lib\release\PhysXFoundation_64.dll
+2>1 File(s) copied
+2>Z:\Engine\EnginPasReel\vendor\PhysX\lib\release\PhysXCooking_64.dll
+2>1 File(s) copied
+5>Device.cpp
+5>LogicalDevice.cpp
+5>PhysicalDevice.cpp
+5>Instance.cpp
+5>Surface.cpp
+5>Debug.cpp
+5>Z:\Engine\EnginPasReel\Rendering\src\Debug\Debug.cpp(29,63): warning C4127: conditional expression is constant
+5>Z:\Engine\EnginPasReel\Rendering\src\Debug\Debug.cpp(29,63): message : consider using 'if constexpr' statement instead
+5>DescriptorPool.cpp
+5>DescriptorSetLayout.cpp
+5>DescriptorSets.cpp
+5>DrawableObject.cpp
+5>DrawableObjectsManager.cpp
+5>RenderingMesh.cpp
+5>GraphicsPipeline.cpp
+5>imgui.cpp
+5>Z:\Engine\EnginPasReel\Rendering\src\ImGUI\imgui.cpp(7686,35): warning C4189: 'mon': local variable is initialized but not referenced
+5>Z:\Engine\EnginPasReel\Rendering\src\ImGUI\imgui.cpp(13428,10): warning C4189: 'ret': local variable is initialized but not referenced
+5>imgui_demo.cpp
+5>Compiling...
+5>imgui_draw.cpp
+5>imgui_impl_glfw.cpp
+5>imgui_impl_vulkan.cpp
+5>imgui_tables.cpp
+5>imgui_widgets.cpp
+5>Z:\Engine\EnginPasReel\Rendering\src\ImGUI\imgui_widgets.cpp(7283,52): warning C4100: 'tab_bar': unreferenced formal parameter
+5>Light.cpp
+5>LightsManager.cpp
+5>Material.cpp
+5>Texture.cpp
+5>TextureManager.cpp
+5>TextureSampler.cpp
+5>TextureView.cpp
+5>Buffer.cpp
+5>DeviceMemory.cpp
+5>CommandPool.cpp
+5>OffScreenRenderPass.cpp
+5>RenderPass.cpp
+5>Shader.cpp
+5>SwapChain.cpp
+5>SynchronizationObjects.cpp
+5>Compiling...
+5>File.cpp
+5>Initializers.cpp
+5>FontsManager.cpp
+5>UI.cpp
+5>UIManager.cpp
+5>InputManager.cpp
+5>Window.cpp
+5>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Rendering.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Rendering.exp
+5>Generating code
+5>Previous IPDB not found, fall back to full compilation.
+5>Z:\Engine\EnginPasReel\Rendering\src\Debug\Debug.cpp(31): warning C4702: unreachable code
+5>Z:\Engine\EnginPasReel\Rendering\src\Debug\Debug.cpp(34): warning C4702: unreachable code
+5>Z:\Engine\EnginPasReel\Rendering\src\Debug\Debug.cpp(41): warning C4702: unreachable code
+5>Z:\Engine\EnginPasReel\Rendering\src\Debug\Debug.cpp(43): warning C4702: unreachable code
+5>All 6137 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+5>Finished generating code
+5>Rendering.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Rendering.dll
+5>Done building project "Rendering.vcxproj".
+6>------ Build started: Project: Editor, Configuration: Game_Shipping_Release x64 ------
+6>Editor.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Component.cpp
+6>Camera.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>HUDComponent.cpp
+6>Z:\Engine\EnginPasReel\Editor\src\Components\HUD\HUDComponent.cpp(138,1): warning C4506: no definition for inline function 'void Engine::Editor::HUDDesigner::Sort(Engine::Editor::HUDComponent *)'
+6>Image.cpp
+6>Text.cpp
+6>Z:\Engine\EnginPasReel\Editor\src\Components\HUD\Text.cpp(11,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+6>Light.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>CollisionBox.cpp
+6>CollisionCapsule.cpp
+6>CollisionMesh.cpp
+6>CollisionShapeComponent.cpp
+6>Z:\Engine\EnginPasReel\Editor\src\Components\CollisionShapeComponent.cpp(18,69): warning C4100: 'data': unreferenced formal parameter
+6>SoundEmitter.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>CollisionSphere.cpp
+6>Model.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>RigidBody.cpp
+6>RigidStatic.cpp
+6>Z:\Engine\EnginPasReel\Editor\src\Components\RigidStatic.cpp(33,70): warning C4100: 'other': unreferenced formal parameter
+6>Script.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>EditorApp.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(173,54): warning C4100: 'deltaTime': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(212,56): warning C4100: 'deltaTime': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(273,55): warning C4100: 'deltaTime': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(322,113): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(322,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(333,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+6>Z:\Engine\EnginPasReel\Editor\src\EditorApp.cpp(331,57): warning C4100: 'xOffSet': unreferenced formal parameter
+6>EditorConsoleLogger.cpp
+6>GameObject.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\GameObject.cpp(62,29): warning C4100: 'sceneId': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\GameObject.cpp(270,22): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+6>Compiling...
+6>ConsoleLogger.cpp
+6>FileLogger.cpp
+6>MainResourceManager.cpp
+6>MaterialManager.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>MeshManager.cpp
+6>TextureViewManager.cpp
+6>SceneManager.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>LuaLog.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>LuaVec3.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>ScriptManager.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>ShippingSettings.cpp
+6>Transform.cpp
+6>AssetsWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>InspectorWindowCamera.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>InspectorWindowSoundEmitter.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>ContentsWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>HUDDesigner.cpp
+6>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\utility(192,1): warning C4244: 'initializing': conversion from 'int' to '_Ty2', possible loss of data
+6>        with
+6>        [
+6>            _Ty2=float
+6>        ]
+6>Z:\Engine\EnginPasReel\Editor\src\UI\HUDDesigner.cpp(88): message : see reference to function template instantiation 'std::pair<std::string,float>::pair<const char*,int&,0>(_Other1 &&,_Other2) noexcept(false)' being compiled
+6>        with
+6>        [
+6>            _Other1=const char *,
+6>            _Other2=int &
+6>        ]
+6>Z:\Engine\EnginPasReel\Editor\src\UI\HUDDesigner.cpp(88): message : see reference to function template instantiation 'std::pair<std::string,float>::pair<const char*,int&,0>(_Other1 &&,_Other2) noexcept(false)' being compiled
+6>        with
+6>        [
+6>            _Other1=const char *,
+6>            _Other2=int &
+6>        ]
+6>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\utility(248,1): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+6>        with
+6>        [
+6>            _Ty=int
+6>        ]
+6>        and
+6>        [
+6>            _Ty2=float
+6>        ]
+6>Z:\Engine\EnginPasReel\Editor\src\UI\HUDDesigner.cpp(90): message : see reference to function template instantiation 'std::pair<std::string,float>::pair<std::string,int,0>(std::pair<std::string,int> &&) noexcept' being compiled
+6>Z:\Engine\EnginPasReel\Editor\src\UI\HUDDesigner.cpp(90): message : see reference to function template instantiation 'std::pair<std::string,float>::pair<std::string,int,0>(std::pair<std::string,int> &&) noexcept' being compiled
+6>InspectorWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Z:\Engine\EnginPasReel\Editor\src\UI\InspectorWindow.cpp(44,12): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+6>InspectorWindowHUD.cpp
+6>InspectorWindowLights.cpp
+6>Compiling...
+6>InspectorWindowModel.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>InspectorWindowPhysics.cpp
+6>LogWindow.cpp
+6>SceneWindow.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>Toolbar.cpp
+6>Z:\Engine\EnginPasReel\vendor\LuaBridge-master\Source\LuaBridge\detail\Stack.h(26,33): warning C4100: 'L': unreferenced formal parameter
+6>   Creating library Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Editor.lib and object Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Editor.exp
+6>Generating code
+6>Previous IPDB not found, fall back to full compilation.
+6>All 2324 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+6>Finished generating code
+6>Editor.vcxproj -> Z:\Engine\EnginPasReel\x64\Game_Shipping_Release\Editor.exe
+6>0 File(s) copied
+6>0 File(s) copied
+6>0 File(s) copied
+6>0 File(s) copied
+6>0 File(s) copied
+6>Z:\Engine\EnginPasReel\vendor\assimp-5.0.1\build\code\Release\assimp-vc142-mt.dll
+6>1 File(s) copied
+6>Z:\Engine\EnginPasReel\Editor\Assets\Fonts\data-latin.ttf
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\blueMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\dragonMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\greenMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\leftHandMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\plantMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Materials\redMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Assets\Meshes\indoorPlant.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Capsule.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\sphere.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\viking_room.obj
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\Dragon.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Ani_Fire_A.png
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Dragon_Bump_Col2.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Dragon_ground_color.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Dragon_Nor.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Dragon_Nor_mirror2.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Fire_A_2.png
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Floor_C.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Floor_N.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\Dragon\textures\Floor_S.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\indoorPlant.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\indoorPlant.mtl
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\indoorPlant.obj
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\indoorPlant2.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\textures\indoor plant_2_vl.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\textures\indoorPlant.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\textures\indoorPlantNormal.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\textures\1024\indoor plant_2_COL.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\IndoorPlant\textures\1024\indoor plant_2_NOR.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\leftHand\HAND_C2.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Models\leftHand\LeftHandRule_Sketchfab.FBX
+6>Z:\Engine\EnginPasReel\Editor\Assets\SaveScene\test.scene
+6>Z:\Engine\EnginPasReel\Editor\Assets\Scripts\test.lua
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\bell.wav
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\explosion.wav
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\getout.ogg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\license.txt
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\MF-3DAYS.S3M
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\MF-PANTS.MOD
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\MF-W-90.XM
+6>Z:\Engine\EnginPasReel\Editor\Assets\Sounds\ophelia.mp3
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\Foot.png
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\Fun.fun
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\MyFBX.fbx
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\MyLVL.lvl
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\MyOBJ.obj
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\MyOGG.ogg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\Nature.tga
+6>Z:\Engine\EnginPasReel\Editor\Assets\Test\Snow.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Textures\blue.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Textures\green.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Textures\red.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Textures\texture.jpg
+6>Z:\Engine\EnginPasReel\Editor\Assets\Textures\viking_room.png
+6>55 File(s) copied
+6>Z:\Engine\EnginPasReel\Editor\Resources\Fonts\ProggyClean.ttf
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconError.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconExample.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconFBX.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconFolder.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconLVL.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconOBJ.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconOGG.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\IconTTF.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\PlayOnPauseNext.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\PlayOnPauseOnNext.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Images\Icons\PlayPauseNext.png
+6>Z:\Engine\EnginPasReel\Editor\Resources\Materials\defaultMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Materials\failedMaterial.mat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Meshes\Cube.obj
+6>Z:\Engine\EnginPasReel\Editor\Resources\Meshes\Sphere.obj
+6>Z:\Engine\EnginPasReel\Editor\Resources\Scripts\shipGameDebug.bat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Scripts\shipGameRelease.bat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Scripts\shippingScript.bat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\baseFrag.spv
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\baseShader.frag
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\baseShader.vert
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\baseVert.spv
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\compile.bat
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\debugPhysic.frag
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\debugPhysic.vert
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\debugPhysicFrag.spv
+6>Z:\Engine\EnginPasReel\Editor\Resources\Shaders\debugPhysicVert.spv
+6>Z:\Engine\EnginPasReel\Editor\Resources\Textures\defaultTexture.jpg
+6>Z:\Engine\EnginPasReel\Editor\Resources\Textures\failedTexture.jpg
+6>30 File(s) copied
+6>Z:\Engine\EnginPasReel\Editor\imgui.ini
+6>1 File(s) copied
+6>Z:\Engine\EnginPasReel\vendor\Lua-x64-master\lua5.3.dll
+6>1 File(s) copied
+6>Done building project "Editor.vcxproj".
+========== Build: 6 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

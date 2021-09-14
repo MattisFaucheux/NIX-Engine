@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{f9ff3037-66e7-43c7-b4bd-008e50e6932d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Debug">
+      <UniqueIdentifier>{86727695-4813-456f-a8ba-b84a51a9b4ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Debug">
+      <UniqueIdentifier>{2b2ba156-997c-4deb-a47f-becd22ea3871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SwapChain">
+      <UniqueIdentifier>{2e31adfb-992e-4de5-b525-4bf0dec4028e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SwapChain">
+      <UniqueIdentifier>{f2bb5894-2828-4476-bbfb-b5ff2b5b654c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImGUI">
+      <UniqueIdentifier>{eeb3fc7c-74c7-4ca9-be63-a38eb5874b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGUI">
+      <UniqueIdentifier>{c7af36d8-b89b-44c5-8fbb-9e901bf40ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Windowing">
+      <UniqueIdentifier>{b7604d11-a435-4899-b1b5-4c92aa464c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windowing">
+      <UniqueIdentifier>{271d7a73-332c-426f-a911-d899a213436a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{3490f90c-aebd-4967-b20d-462c83e9697d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{8276c34e-1289-43a1-bef3-84654792db76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights">
+      <UniqueIdentifier>{6c30d42a-ff1d-499b-aa9a-1ab281d1e9f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{288dcf00-22a3-4024-adce-f9f83b561f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{a92f866e-4e0d-437d-b381-8ed8e70d58ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Material">
+      <UniqueIdentifier>{4a7f026f-1023-4546-a06b-d878560827a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Material">
+      <UniqueIdentifier>{8389e5b3-c4e1-4476-8369-15913ed36d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Light">
+      <UniqueIdentifier>{baec4d32-af13-47db-badf-8deae75933b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{0df2fe69-be06-43dd-b58e-985d2de42830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{ea622b2a-b1c8-4bce-b55e-34087a1e1a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{2909ae68-f3f5-4605-9141-ac45caf66c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{8dccbd6a-1c92-473f-ac6d-835b811a9527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DrawableObject">
+      <UniqueIdentifier>{75275f73-62b0-4f46-b083-c9e779717da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DrawableObject">
+      <UniqueIdentifier>{fcbb4769-ebc5-4aa8-83f6-42d7fe135617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Descriptors">
+      <UniqueIdentifier>{540b80da-1ab3-4dfd-940d-918e79e70dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Descriptors">
+      <UniqueIdentifier>{83536216-96ae-43c1-8f42-e48fab23f916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Context">
+      <UniqueIdentifier>{76816e05-99a2-4aca-b3a0-ec44a00b109a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Context">
+      <UniqueIdentifier>{de87360b-89ee-45c6-badb-07428e52bc1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Context\Device">
+      <UniqueIdentifier>{1347f592-0266-48fa-94db-b61898519a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Context\Device">
+      <UniqueIdentifier>{637329fd-f61e-4cd8-927f-ed5f4247415b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RenderPass">
+      <UniqueIdentifier>{f5fc92e3-62a5-47fe-899a-597f8e2c34ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderPass">
+      <UniqueIdentifier>{e9034e28-557b-4e77-91b9-7a0c6603d2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{3df59521-1156-401a-93e0-44a2c874f83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{f761b30f-155d-4cdc-bd72-42e56b665316}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommandBuffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphicsPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommandPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SynchronizationObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGUI\imconfig.h">
+      <Filter>Header Files\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGUI\imgui.h">
+      <Filter>Header Files\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGUI\imgui_impl_glfw.h">
+      <Filter>Header Files\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGUI\imgui_impl_vulkan.h">
+      <Filter>Header Files\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGUI\imgui_internal.h">
+      <Filter>Header Files\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGUI\imstb_rectpack.h">
+      <Filter>Header Files\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGUI\imstb_textedit.h">
+      <Filter>Header Files\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGUI\imstb_truetype.h">
+      <Filter>Header Files\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Windowing\EInputGamepadAxis.h">
+      <Filter>Header Files\Windowing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Windowing\EInputGamepadButton.h">
+      <Filter>Header Files\Windowing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Windowing\EInputKeyboard.h">
+      <Filter>Header Files\Windowing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Windowing\EInputMouse.h">
+      <Filter>Header Files\Windowing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Windowing\EInputState.h">
+      <Filter>Header Files\Windowing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Windowing\InputDefines.h">
+      <Filter>Header Files\Windowing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Windowing\InputManager.h">
+      <Filter>Header Files\Windowing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Windowing\Window.h">
+      <Filter>Header Files\Windowing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\UI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\UIManager.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Memory\DeviceMemory.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Memory\Buffer.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Memory\EBufferType.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Material\Material.h">
+      <Filter>Header Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Material\Texture.h">
+      <Filter>Header Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Material\TextureManager.h">
+      <Filter>Header Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Material\TextureSampler.h">
+      <Filter>Header Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Material\TextureView.h">
+      <Filter>Header Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Light\ELightType.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Light\Light.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Light\LightsManager.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tools\Initializers.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shaders\EShaderType.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shaders\Shader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shaders\ShaderStage.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tools\File.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tools\Version.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DrawableObject\DrawableObject.h">
+      <Filter>Header Files\DrawableObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DrawableObject\RenderingMesh.h">
+      <Filter>Header Files\DrawableObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Descriptors\DescriptorSets.h">
+      <Filter>Header Files\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Descriptors\DescriptorPool.h">
+      <Filter>Header Files\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Descriptors\DescriptorSetLayout.h">
+      <Filter>Header Files\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Context\Context.h">
+      <Filter>Header Files\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Context\Surface.h">
+      <Filter>Header Files\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Context\Device\Device.h">
+      <Filter>Header Files\Context\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Context\Device\LogicalDevice.h">
+      <Filter>Header Files\Context\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Context\Device\PhysicalDevice.h">
+      <Filter>Header Files\Context\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Debug\Debug.h">
+      <Filter>Header Files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SwapChain\SwapChain.h">
+      <Filter>Header Files\SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderPass\OffScreenRenderPass.h">
+      <Filter>Header Files\RenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderPass\RenderPass.h">
+      <Filter>Header Files\RenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Context\Instance.h">
+      <Filter>Header Files\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="include\API\DLLExportRendering.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera\CameraManager.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DrawableObject\DrawableObjectsManager.h">
+      <Filter>Header Files\DrawableObject</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\FontsManager.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsPipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CommandBuffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CommandPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SynchronizationObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGUI\imgui.cpp">
+      <Filter>Source Files\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGUI\imgui_demo.cpp">
+      <Filter>Source Files\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGUI\imgui_draw.cpp">
+      <Filter>Source Files\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGUI\imgui_impl_glfw.cpp">
+      <Filter>Source Files\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGUI\imgui_impl_vulkan.cpp">
+      <Filter>Source Files\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGUI\imgui_tables.cpp">
+      <Filter>Source Files\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGUI\imgui_widgets.cpp">
+      <Filter>Source Files\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Windowing\InputManager.cpp">
+      <Filter>Source Files\Windowing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Windowing\Window.cpp">
+      <Filter>Source Files\Windowing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\UI.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\UIManager.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lights\LightsManager.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Memory\DeviceMemory.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Memory\Buffer.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lights\Light.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Initializers.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shaders\Shader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\File.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DrawableObject\DrawableObject.cpp">
+      <Filter>Source Files\DrawableObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DrawableObject\RenderingMesh.cpp">
+      <Filter>Source Files\DrawableObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Descriptors\DescriptorPool.cpp">
+      <Filter>Source Files\Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Descriptors\DescriptorSetLayout.cpp">
+      <Filter>Source Files\Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Descriptors\DescriptorSets.cpp">
+      <Filter>Source Files\Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Context\Device\Device.cpp">
+      <Filter>Source Files\Context\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Context\Device\LogicalDevice.cpp">
+      <Filter>Source Files\Context\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Context\Device\PhysicalDevice.cpp">
+      <Filter>Source Files\Context\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Context\Context.cpp">
+      <Filter>Source Files\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Context\Surface.cpp">
+      <Filter>Source Files\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Debug\Debug.cpp">
+      <Filter>Source Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SwapChain\SwapChain.cpp">
+      <Filter>Source Files\SwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderPass\OffScreenRenderPass.cpp">
+      <Filter>Source Files\RenderPass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderPass\RenderPass.cpp">
+      <Filter>Source Files\RenderPass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Material\Material.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Material\Texture.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Material\TextureManager.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Material\TextureSampler.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Material\TextureView.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Context\Instance.cpp">
+      <Filter>Source Files\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera\CameraManager.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DrawableObject\DrawableObjectsManager.cpp">
+      <Filter>Source Files\DrawableObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\FontsManager.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

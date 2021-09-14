@@ -1,0 +1,75 @@
+<scene>
+    <game_object name="Root" tag="Untagged" isActive="true">
+        <transform>
+            <position x="0" y="0" z="0"/>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <scale x="1" y="1" z="1"/>
+        </transform>
+        <game_object name="ExampleHUD" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="0" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <image component_nb="0" z_order="0" pos_x="0" pos_y="-100" anchor_width="0.80000001" anchor_height="1" path="Assets\Test\Foot.png" width="200" height="200"/>
+            <text component_nb="1" z_order="1" pos_x="100" pos_y="0" anchor_width="0.80000001" anchor_height="0.89999998" text="&lt; Fait la passe!" font="Default Font" size="16">
+                <color x="0" y="0.56747574" z="0.66666663" w="1"/>
+            </text>
+        </game_object>
+        <game_object name="Plant" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="0" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="0.0099999998" y="0.0099999998" z="0.0099999998"/>
+            </transform>
+            <model mesh_path="Assets\Models\IndoorPlant\indoorPlant.fbx" material_path="Assets\Materials\plantMaterial.mat"/>
+            <collision_sphere radius="0.5" is_trigger="false" is_query_test_enable="true"/>
+            <rigid_body is_gravity="true" is_kinematic="false" is_active="true" angular_damping="0.050000001" linear_damping="0" max_angular_velocity="100" max_linear_velocity="1e+16" mass="0.52359879">
+                <position x="0" y="-0.0027250003" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <is_axis_rotation_lock x="false" y="false" z="false"/>
+                <is_axis_translation_lock x="false" y="false" z="false"/>
+                <mass_inertia_tensor x="0.052359879" y="0.052359879" z="0.052359879"/>
+            </rigid_body>
+            <light light_type="2" inner_cone="0.89999998" outer_cone="0.99000001">
+                <ambient x="0.30000001" y="0.30000001" z="0.30000001" w="0"/>
+                <diffuse x="1" y="1" z="1" w="0"/>
+                <specular x="1" y="1" z="1" w="0"/>
+                <position x="0" y="0" z="0" w="0"/>
+                <direction x="0" y="0" z="1" w="0"/>
+                <attenuation x="1" y="0.090000004" z="0.032000002" w="0"/>
+            </light>
+            <game_object name="GameObject" tag="Untagged" isActive="true">
+                <transform>
+                    <position x="0" y="-499.99997" z="0"/>
+                    <rotation x="0" y="0" z="0" w="1"/>
+                    <scale x="100" y="100" z="100"/>
+                </transform>
+            </game_object>
+            <game_object name="Camera" tag="MainCamera" isActive="true">
+                <transform>
+                    <position x="0" y="0" z="-1500"/>
+                    <rotation x="0" y="0" z="0" w="1"/>
+                    <scale x="100" y="100" z="100"/>
+                </transform>
+                <camera far="1000" fov="45" speed="10" zoom_sensitivity="0.1" yaw="90" pitch="0"/>
+            </game_object>
+        </game_object>
+        <game_object name="Cube" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="-5" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="2" y="1" z="2"/>
+            </transform>
+            <model mesh_path="Resources\Meshes\cube.obj" material_path="Assets\Materials\redMaterial.mat"/>
+            <collision_mesh is_trigger="false" is_query_test_enable="true">
+                <scale x="2" y="1" z="2"/>
+            </collision_mesh>
+            <rigid_static is_active="true">
+                <position x="0" y="-5" z="0"/>
+                <rotation x="-0" y="-0" z="-0" w="1"/>
+            </rigid_static>
+            <script script_path="Scripts\script.lua"/>
+        </game_object>
+    </game_object>
+</scene>

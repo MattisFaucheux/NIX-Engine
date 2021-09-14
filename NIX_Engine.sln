@@ -1,0 +1,150 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Core\Core.vcxproj", "{C5538D22-E308-4F48-A83A-926EB21DD74D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rendering", "Rendering\Rendering.vcxproj", "{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5538D22-E308-4F48-A83A-926EB21DD74D} = {C5538D22-E308-4F48-A83A-926EB21DD74D}
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002} = {FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sound", "Sound\Sound.vcxproj", "{41750331-DD5F-459C-A8BF-9DECBE8175A6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5538D22-E308-4F48-A83A-926EB21DD74D} = {C5538D22-E308-4F48-A83A-926EB21DD74D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeometricTools", "GeometricTools\GeometricTools.vcxproj", "{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5538D22-E308-4F48-A83A-926EB21DD74D} = {C5538D22-E308-4F48-A83A-926EB21DD74D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor", "Editor\Editor.vcxproj", "{751DD25A-1431-44F8-ABCD-713A4517CF2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5538D22-E308-4F48-A83A-926EB21DD74D} = {C5538D22-E308-4F48-A83A-926EB21DD74D}
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6} = {41750331-DD5F-459C-A8BF-9DECBE8175A6}
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045} = {8F5FCA74-F222-40C1-A1B1-B4EA854D4045}
+		{AA86DCA3-2324-484E-84F0-951D13371112} = {AA86DCA3-2324-484E-84F0-951D13371112}
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002} = {FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physic", "Physic\Physic.vcxproj", "{AA86DCA3-2324-484E-84F0-951D13371112}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Game_Shipping_Debug|x64 = Game_Shipping_Debug|x64
+		Game_Shipping_Debug|x86 = Game_Shipping_Debug|x86
+		Game_Shipping_Release|x64 = Game_Shipping_Release|x64
+		Game_Shipping_Release|x86 = Game_Shipping_Release|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Debug|x64.ActiveCfg = Debug|x64
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Debug|x64.Build.0 = Debug|x64
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Debug|x86.Build.0 = Debug|Win32
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Game_Shipping_Debug|x64.ActiveCfg = Game_Shipping_Debug|x64
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Game_Shipping_Debug|x64.Build.0 = Game_Shipping_Debug|x64
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Game_Shipping_Debug|x86.ActiveCfg = Game_Shipping_Debug|Win32
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Game_Shipping_Debug|x86.Build.0 = Game_Shipping_Debug|Win32
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Game_Shipping_Release|x64.ActiveCfg = Game_Shipping_Release|x64
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Game_Shipping_Release|x64.Build.0 = Game_Shipping_Release|x64
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Game_Shipping_Release|x86.ActiveCfg = Game_Shipping_Release|Win32
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Game_Shipping_Release|x86.Build.0 = Game_Shipping_Release|Win32
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Release|x64.ActiveCfg = Release|x64
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Release|x64.Build.0 = Release|x64
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Release|x86.ActiveCfg = Release|Win32
+		{C5538D22-E308-4F48-A83A-926EB21DD74D}.Release|x86.Build.0 = Release|Win32
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Debug|x64.ActiveCfg = Debug|x64
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Debug|x64.Build.0 = Debug|x64
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Debug|x86.Build.0 = Debug|Win32
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Game_Shipping_Debug|x64.ActiveCfg = Game_Shipping_Debug|x64
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Game_Shipping_Debug|x64.Build.0 = Game_Shipping_Debug|x64
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Game_Shipping_Debug|x86.ActiveCfg = Game_Shipping_Debug|Win32
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Game_Shipping_Debug|x86.Build.0 = Game_Shipping_Debug|Win32
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Game_Shipping_Release|x64.ActiveCfg = Game_Shipping_Release|x64
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Game_Shipping_Release|x64.Build.0 = Game_Shipping_Release|x64
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Game_Shipping_Release|x86.ActiveCfg = Game_Shipping_Release|Win32
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Game_Shipping_Release|x86.Build.0 = Game_Shipping_Release|Win32
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Release|x64.ActiveCfg = Release|x64
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Release|x64.Build.0 = Release|x64
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Release|x86.ActiveCfg = Release|Win32
+		{8F5FCA74-F222-40C1-A1B1-B4EA854D4045}.Release|x86.Build.0 = Release|Win32
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Debug|x64.ActiveCfg = Debug|x64
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Debug|x64.Build.0 = Debug|x64
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Debug|x86.ActiveCfg = Debug|Win32
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Debug|x86.Build.0 = Debug|Win32
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Game_Shipping_Debug|x64.ActiveCfg = Game_Shipping_Debug|x64
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Game_Shipping_Debug|x64.Build.0 = Game_Shipping_Debug|x64
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Game_Shipping_Debug|x86.ActiveCfg = Game_Shipping_Debug|Win32
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Game_Shipping_Debug|x86.Build.0 = Game_Shipping_Debug|Win32
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Game_Shipping_Release|x64.ActiveCfg = Game_Shipping_Release|x64
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Game_Shipping_Release|x64.Build.0 = Game_Shipping_Release|x64
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Game_Shipping_Release|x86.ActiveCfg = Game_Shipping_Release|Win32
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Game_Shipping_Release|x86.Build.0 = Game_Shipping_Release|Win32
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Release|x64.ActiveCfg = Release|x64
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Release|x64.Build.0 = Release|x64
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Release|x86.ActiveCfg = Release|Win32
+		{41750331-DD5F-459C-A8BF-9DECBE8175A6}.Release|x86.Build.0 = Release|Win32
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Debug|x64.ActiveCfg = Debug|x64
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Debug|x64.Build.0 = Debug|x64
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Debug|x86.Build.0 = Debug|Win32
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Game_Shipping_Debug|x64.ActiveCfg = Game_Shipping_Debug|x64
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Game_Shipping_Debug|x64.Build.0 = Game_Shipping_Debug|x64
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Game_Shipping_Debug|x86.ActiveCfg = Game_Shipping_Debug|Win32
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Game_Shipping_Debug|x86.Build.0 = Game_Shipping_Debug|Win32
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Game_Shipping_Release|x64.ActiveCfg = Game_Shipping_Release|x64
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Game_Shipping_Release|x64.Build.0 = Game_Shipping_Release|x64
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Game_Shipping_Release|x86.ActiveCfg = Game_Shipping_Release|Win32
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Game_Shipping_Release|x86.Build.0 = Game_Shipping_Release|Win32
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Release|x64.ActiveCfg = Release|x64
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Release|x64.Build.0 = Release|x64
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Release|x86.ActiveCfg = Release|Win32
+		{FE678EC4-E29E-4F9A-9F3D-AFE68EBF7002}.Release|x86.Build.0 = Release|Win32
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Debug|x64.ActiveCfg = Debug|x64
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Debug|x64.Build.0 = Debug|x64
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Debug|x86.Build.0 = Debug|Win32
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Game_Shipping_Debug|x64.ActiveCfg = Game_Shipping_Debug|x64
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Game_Shipping_Debug|x64.Build.0 = Game_Shipping_Debug|x64
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Game_Shipping_Debug|x86.ActiveCfg = Game_Shipping_Debug|Win32
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Game_Shipping_Debug|x86.Build.0 = Game_Shipping_Debug|Win32
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Game_Shipping_Release|x64.ActiveCfg = Game_Shipping_Release|x64
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Game_Shipping_Release|x64.Build.0 = Game_Shipping_Release|x64
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Game_Shipping_Release|x86.ActiveCfg = Game_Shipping_Release|Win32
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Game_Shipping_Release|x86.Build.0 = Game_Shipping_Release|Win32
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Release|x64.ActiveCfg = Release|x64
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Release|x64.Build.0 = Release|x64
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Release|x86.ActiveCfg = Release|Win32
+		{751DD25A-1431-44F8-ABCD-713A4517CF2C}.Release|x86.Build.0 = Release|Win32
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Debug|x64.ActiveCfg = Debug|x64
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Debug|x64.Build.0 = Debug|x64
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Debug|x86.Build.0 = Debug|Win32
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Game_Shipping_Debug|x64.ActiveCfg = Game_Shipping_Debug|x64
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Game_Shipping_Debug|x64.Build.0 = Game_Shipping_Debug|x64
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Game_Shipping_Debug|x86.ActiveCfg = Game_Shipping_Debug|Win32
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Game_Shipping_Debug|x86.Build.0 = Game_Shipping_Debug|Win32
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Game_Shipping_Release|x64.ActiveCfg = Game_Shipping_Release|x64
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Game_Shipping_Release|x64.Build.0 = Game_Shipping_Release|x64
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Game_Shipping_Release|x86.ActiveCfg = Game_Shipping_Release|Win32
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Game_Shipping_Release|x86.Build.0 = Game_Shipping_Release|Win32
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Release|x64.ActiveCfg = Release|x64
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Release|x64.Build.0 = Release|x64
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Release|x86.ActiveCfg = Release|Win32
+		{AA86DCA3-2324-484E-84F0-951D13371112}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8060DD9D-0922-4D5F-AC7F-228962BC2228}
+	EndGlobalSection
+EndGlobal

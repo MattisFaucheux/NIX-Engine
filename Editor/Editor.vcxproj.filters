@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{4bef494c-fa08-4348-9389-ed27e1d64968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{3fb37ea1-2a59-4ad9-8cf6-4a07e3b8c091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{56bfb6e8-a404-4f2e-8df8-a8fa9bec9d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{93225c51-2578-496d-83cd-e27388408f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Lights">
+      <UniqueIdentifier>{70d88719-41d9-4b34-9247-c97e23d723b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Lights">
+      <UniqueIdentifier>{fc8dafd6-0582-421e-917f-b0649bc8e92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResourceManager">
+      <UniqueIdentifier>{6544a46e-7ef6-41ae-933c-48d0ceba9c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ResourceManager">
+      <UniqueIdentifier>{60ddb3da-7099-4f3a-96b5-20670acbe8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logger">
+      <UniqueIdentifier>{4b6b3d5a-7407-44fb-a715-5accc8c832ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logger">
+      <UniqueIdentifier>{fd3e0945-f645-4976-9128-bc266541372b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\HUD">
+      <UniqueIdentifier>{b66f1619-cacc-4898-b650-83967700e6e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\HUD">
+      <UniqueIdentifier>{c5e65e2b-7239-42f1-bc86-ca5727968884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shipping">
+      <UniqueIdentifier>{dc0709a3-a885-45fd-9d81-d0020fd1ace8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shipping">
+      <UniqueIdentifier>{450b851a-24c4-4a51-bbeb-291c2a671fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Scripting">
+      <UniqueIdentifier>{19cab9d7-45fa-43d4-8b81-b9200aae87e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Scripting">
+      <UniqueIdentifier>{0729d805-6ec8-4522-a619-0dc06510d9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Components">
+      <UniqueIdentifier>{9aae7535-2d5f-4ba1-8ff2-a7b5a06f04f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Components">
+      <UniqueIdentifier>{7d087503-69d1-46b7-bddb-5833c138368c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scripting">
+      <UniqueIdentifier>{dc878216-ab11-4a52-a591-ebc974b4bc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scripting">
+      <UniqueIdentifier>{452e3b99-5190-4a75-a7ce-cc7b0910d973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Sound">
+      <UniqueIdentifier>{9d9c3257-7081-41ea-97a2-a9de08af488f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Sound">
+      <UniqueIdentifier>{f72efd63-a957-4e3b-8024-5f9d06889d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Windows">
+      <UniqueIdentifier>{bdd8434f-4708-4a3c-be5e-12adb39b2dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Windows">
+      <UniqueIdentifier>{6587adf8-7c2d-40b5-abd8-da2a40cec19e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Editor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transform.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\AssetsWindow.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\ContentsWindow.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\InspectorWindow.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\SceneWindow.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager\MainResourceManager.cpp">
+      <Filter>Source Files\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager\MaterialManager.cpp">
+      <Filter>Source Files\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager\MeshManager.cpp">
+      <Filter>Source Files\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager\TextureViewManager.cpp">
+      <Filter>Source Files\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\LogWindow.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Toolbar.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorConsoleLogger.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logger\FileLogger.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logger\ConsoleLogger.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\HUDDesigner.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\HUD\HUDComponent.cpp">
+      <Filter>Source Files\Components\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\HUD\Image.cpp">
+      <Filter>Source Files\Components\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\HUD\Text.cpp">
+      <Filter>Source Files\Components\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shipping\ShippingSettings.cpp">
+      <Filter>Source Files\Shipping</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Scripting\Script.cpp">
+      <Filter>Source Files\Components\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaLog.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaVec3.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\ScriptManager.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Sound\SoundEmitter.cpp">
+      <Filter>Source Files\Components\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Lights\Light.cpp">
+      <Filter>Source Files\Components\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Camera.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\CollisionBox.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\CollisionCapsule.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\CollisionMesh.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\CollisionSphere.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Model.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\RigidBody.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\RigidStatic.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\CollisionShapeComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ProjectSave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaQuaternion.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaForceMode.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaInputEnum.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaInputManager.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaVec4.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaLightType.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaSceneManager.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaScene.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaRaycast.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaRaycastHitBuffer.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\LuaRaycastHit.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeScript.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeCamera.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeSoundEmitter.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeModel.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeLight.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeImage.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeText.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeRigidBody.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeRigidStatic.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeCollisionBox.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeCollisionConvex.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeCollisionCapsule.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeCollisionSphere.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\UIEditor.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\Components\UINodeTransform.cpp">
+      <Filter>Source Files\UI\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\EditorApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Transform.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\AssetsWindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\ContentsWindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\InspectorWindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\SceneWindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\CollisionShapeComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\MainResourceManager.h">
+      <Filter>Header Files\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\MaterialManager.h">
+      <Filter>Header Files\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\MeshManager.h">
+      <Filter>Header Files\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\TextureViewManager.h">
+      <Filter>Header Files\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\LogWindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Toolbar.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileLogger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorConsoleLogger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Logger\ConsoleLogger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\HUDDesigner.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\HUD\HUDComponent.h">
+      <Filter>Header Files\Components\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\HUD\Image.h">
+      <Filter>Header Files\Components\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\HUD\Text.h">
+      <Filter>Header Files\Components\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shipping\ShippingSettings.h">
+      <Filter>Header Files\Shipping</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\Scripting\Script.h">
+      <Filter>Header Files\Components\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaLog.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaVec3.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\ScriptManager.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\Sound\SoundEmitter.h">
+      <Filter>Header Files\Components\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\Lights\Light.h">
+      <Filter>Header Files\Components\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\Camera.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\CollisionBox.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\CollisionCapsule.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\CollisionMesh.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\CollisionSphere.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\Model.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\RigidBody.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Components\RigidStatic.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProjectSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaQuaternion.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaForceMode.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaInputEnum.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaInputManager.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaVec4.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaLightType.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaSceneManager.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaScene.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaRaycast.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaRaycastHitBuffer.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scripting\LuaRaycastHit.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeComponent.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeScript.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeCamera.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeSoundEmitter.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeModel.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeLight.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeImage.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeText.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeHUD.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeRigidBody.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeRigidStatic.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeCollision.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeCollisionBox.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeCollisionSphere.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeCollisionCapsule.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeCollisionConvex.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\UIEditor.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UI\Components\UINodeTransform.h">
+      <Filter>Header Files\UI\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,812 @@
+<scene>
+    <game_object name="Root" tag="Untagged" isActive="true">
+        <transform>
+            <position x="0" y="0" z="0"/>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <scale x="1" y="1" z="1"/>
+        </transform>
+        <game_object name="FPS" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="0" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <text z_order="0" pos_x="150" pos_y="100" anchor_width="0" anchor_height="0" text="FPS:      " font="Default Font" size="48">
+                <color x="1" y="1" z="1" w="1"/>
+            </text>
+            <scripts scripts_nb="1">
+                <script script_path="Assets\Scripts\Level1\fps.lua"/>
+            </scripts>
+        </game_object>
+        <game_object name="Timer" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="0" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <text z_order="0" pos_x="150" pos_y="50" anchor_width="0" anchor_height="0" text="Timer:     " font="Default Font" size="48">
+                <color x="1" y="1" z="1" w="1"/>
+            </text>
+            <scripts scripts_nb="1">
+                <script script_path="Assets\Scripts\Level1\Timer.lua"/>
+            </scripts>
+        </game_object>
+        <game_object name="KillZone" tag="Untagged" isActive="true">
+            <transform>
+                <position x="-35" y="-15" z="40"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="180" y="5" z="100"/>
+            </transform>
+            <collision_box is_trigger="true" is_query_test_enable="true">
+                <scale x="1" y="1" z="1"/>
+            </collision_box>
+            <rigid_static is_active="true">
+                <position x="-35" y="-15" z="40"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+            </rigid_static>
+            <scripts scripts_nb="1">
+                <script script_path="Assets\Scripts\Level2\KillZone.lua"/>
+            </scripts>
+        </game_object>
+        <game_object name="GameObject" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="100" z="0"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="1" z="1"/>
+            </transform>
+            <light light_type="2" inner_cone="0.89999998" outer_cone="0.99000001">
+                <ambient x="0.30000001" y="0.30000001" z="0.30000001" w="0"/>
+                <diffuse x="1" y="1" z="1" w="0"/>
+                <specular x="1" y="1" z="1" w="0"/>
+                <position x="0" y="100" z="0" w="0"/>
+                <direction x="0" y="0" z="1" w="0"/>
+                <attenuation x="1" y="0.090000004" z="0.032000002" w="0"/>
+            </light>
+        </game_object>
+        <game_object name="EndLevel" tag="Untagged" isActive="true">
+            <transform>
+                <position x="-99.5" y="4" z="40"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="1" y="8" z="10"/>
+            </transform>
+            <model mesh_path="Cube" material_path="Assets\Materials\BabyYoureAFireBall.mat"/>
+            <collision_box is_trigger="true" is_query_test_enable="true">
+                <scale x="1" y="1" z="1"/>
+            </collision_box>
+            <scripts scripts_nb="1">
+                <script script_path="Assets\Scripts\Level1\EndLevel1.lua"/>
+            </scripts>
+            <rigid_static is_active="true">
+                <position x="-99.5" y="4" z="40"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+            </rigid_static>
+        </game_object>
+        <game_object name="Player" tag="Player" isActive="true">
+            <transform>
+                <position x="20" y="3" z="40"/>
+                <rotation x="0" y="-0.70710683" z="0" w="0.70710683"/>
+                <scale x="1.5" y="4" z="1.5"/>
+            </transform>
+            <collision_capsule height="3" radius="1.25" is_trigger="false" is_query_test_enable="true"/>
+            <rigid_body is_gravity="true" is_kinematic="false" is_active="true" angular_damping="0.050000001" linear_damping="0" max_angular_velocity="100" max_linear_velocity="1e+16" mass="20">
+                <position x="20" y="3" z="40"/>
+                <rotation x="0" y="-0.70710683" z="0" w="0.70710671"/>
+                <is_axis_rotation_lock x="true" y="true" z="true"/>
+                <is_axis_translation_lock x="false" y="false" z="false"/>
+                <mass_inertia_tensor x="9.5" y="72.300003" z="72.300003"/>
+            </rigid_body>
+            <scripts scripts_nb="1">
+                <script script_path="Assets\Scripts\Level1\PlayerMovement.lua"/>
+            </scripts>
+            <image z_order="0" pos_x="0" pos_y="0" anchor_width="0.5" anchor_height="0.5" path="Assets\Images\1587405462_preview_Crosshair2.png" width="150" height="150"/>
+            <game_object name="GameObject" tag="Untagged" isActive="true">
+                <transform>
+                    <position x="0" y="1" z="0"/>
+                    <rotation x="0" y="0" z="0" w="1"/>
+                    <scale x="0.66666657" y="0.22220001" z="0.66666657"/>
+                </transform>
+                <game_object name="Camera" tag="MainCamera" isActive="true">
+                    <transform>
+                        <position x="0" y="0" z="0"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1.0000001" y="1" z="1.0000001"/>
+                    </transform>
+                    <camera far="1000" fov="45" speed="10" zoom_sensitivity="0.1" yaw="90" pitch="0"/>
+                    <model mesh_path="Cube" material_path="Default Material"/>
+                    <scripts scripts_nb="1">
+                        <script script_path="Assets\Scripts\Level1\CameraRotation.lua"/>
+                    </scripts>
+                </game_object>
+            </game_object>
+        </game_object>
+        <game_object name="Level" tag="Untagged" isActive="true">
+            <transform>
+                <position x="0" y="0" z="20"/>
+                <rotation x="0" y="0" z="0" w="1"/>
+                <scale x="5" y="5" z="5"/>
+            </transform>
+            <game_object name="Path" tag="Untagged" isActive="true">
+                <transform>
+                    <position x="1" y="0" z="4"/>
+                    <rotation x="0" y="0" z="0" w="1"/>
+                    <scale x="1" y="1" z="1"/>
+                </transform>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="0" y="0" z="2"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="5" y="-0.25" z="50"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-2" y="0" z="2"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-5" y="-0.25" z="50"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-2" y="0" z="4"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-5" y="-0.25" z="60"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-4" y="0" z="4"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-15" y="-0.25" z="60"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-6" y="0" z="4"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-25" y="-0.25" z="60"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-8" y="0" z="4"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-35" y="-0.25" z="60"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-8" y="0" z="2"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-35" y="-0.25" z="50"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-8" y="0" z="0"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-35" y="-0.25" z="40"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-6" y="0" z="0"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-25" y="-0.25" z="40"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-6" y="0" z="-2"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-25" y="-0.25" z="30"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-6" y="0" z="-4"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-25" y="-0.25" z="20"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-8" y="0" z="-4"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-35" y="-0.25" z="20"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-10" y="0" z="-4"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-45" y="-0.25" z="20"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-12" y="0" z="-4"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-55" y="-0.25" z="20"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-14" y="0" z="-2"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-65" y="-0.25" z="30"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-12" y="0" z="-2"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-55" y="-0.25" z="30"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-14" y="0" z="0"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-65" y="-0.25" z="40"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-14" y="0" z="2"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-65" y="-0.25" z="50"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+                <game_object name="FloorCenter" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="-16" y="0" z="2"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Center.fbx" material_path="Assets\Import\Materials\Floor_Center\FloorCenter.mat"/>
+                    <game_object name="Collider" tag="Untagged" isActive="true">
+                        <transform>
+                            <position x="0" y="-0.050000001" z="0"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                            <scale x="1" y="1" z="1"/>
+                        </transform>
+                        <collision_box is_trigger="false" is_query_test_enable="true">
+                            <scale x="2" y="0.1" z="2"/>
+                        </collision_box>
+                        <rigid_static is_active="true">
+                            <position x="-75" y="-0.25" z="50"/>
+                            <rotation x="0" y="0" z="0" w="1"/>
+                        </rigid_static>
+                    </game_object>
+                </game_object>
+            </game_object>
+            <game_object name="Start" tag="Untagged" isActive="true">
+                <transform>
+                    <position x="0" y="0" z="0"/>
+                    <rotation x="0" y="0" z="0" w="1"/>
+                    <scale x="1" y="1" z="1"/>
+                </transform>
+                <game_object name="FloorCornerOUT" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="5" y="0" z="0"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Corner_OUT.fbx" material_path="Assets\Import\Materials\Floor_Corner_OUT\FloorCornerOUT.mat"/>
+                </game_object>
+                <game_object name="FloorCornerOUT" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="5" y="0" z="8"/>
+                        <rotation x="0" y="-0.70710683" z="0" w="0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Corner_OUT.fbx" material_path="Assets\Import\Materials\Floor_Corner_OUT\FloorCornerOUT.mat"/>
+                </game_object>
+                <game_object name="FloorCornerOUT" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="3" y="0" z="0"/>
+                        <rotation x="0" y="0.70710683" z="0" w="0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Corner_OUT.fbx" material_path="Assets\Import\Materials\Floor_Corner_OUT\FloorCornerOUT.mat"/>
+                </game_object>
+                <game_object name="FloorCornerOUT" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="3" y="0" z="8"/>
+                        <rotation x="-4.3711388e-08" y="1" z="-4.3711388e-08" w="1.9106855e-15"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Corner_OUT.fbx" material_path="Assets\Import\Materials\Floor_Corner_OUT\FloorCornerOUT.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="3" y="0" z="2"/>
+                        <rotation x="0" y="0.70710683" z="0" w="0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="3" y="0" z="4"/>
+                        <rotation x="0" y="0.70710683" z="0" w="0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="3" y="0" z="6"/>
+                        <rotation x="0" y="0.70710683" z="0" w="0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="5" y="0" z="2"/>
+                        <rotation x="-1.0677016e-07" y="0.70710683" z="-1.0677016e-07" w="-0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="5" y="0" z="4"/>
+                        <rotation x="-1.0677016e-07" y="0.70710683" z="-1.0677016e-07" w="-0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="5" y="0" z="6"/>
+                        <rotation x="-1.0677016e-07" y="0.70710683" z="-1.0677016e-07" w="-0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="Collider" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="4" y="0" z="4"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <collision_box is_trigger="false" is_query_test_enable="true">
+                        <scale x="4" y="0.1" z="10"/>
+                    </collision_box>
+                    <rigid_static is_active="true">
+                        <position x="20" y="0" z="40"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                    </rigid_static>
+                </game_object>
+            </game_object>
+            <game_object name="End" tag="Untagged" isActive="true">
+                <transform>
+                    <position x="-22" y="0" z="0"/>
+                    <rotation x="0" y="0" z="0" w="1"/>
+                    <scale x="1" y="1" z="1"/>
+                </transform>
+                <game_object name="FloorCornerOUT" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="5" y="0" z="0"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Corner_OUT.fbx" material_path="Assets\Import\Materials\Floor_Corner_OUT\FloorCornerOUT.mat"/>
+                </game_object>
+                <game_object name="FloorCornerOUT" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="5" y="0" z="8"/>
+                        <rotation x="0" y="-0.70710683" z="0" w="0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Corner_OUT.fbx" material_path="Assets\Import\Materials\Floor_Corner_OUT\FloorCornerOUT.mat"/>
+                </game_object>
+                <game_object name="FloorCornerOUT" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="3" y="0" z="0"/>
+                        <rotation x="0" y="0.70710683" z="0" w="0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Corner_OUT.fbx" material_path="Assets\Import\Materials\Floor_Corner_OUT\FloorCornerOUT.mat"/>
+                </game_object>
+                <game_object name="FloorCornerOUT" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="3" y="0" z="8"/>
+                        <rotation x="-4.3711388e-08" y="1" z="-4.3711388e-08" w="1.9106855e-15"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Corner_OUT.fbx" material_path="Assets\Import\Materials\Floor_Corner_OUT\FloorCornerOUT.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="3" y="0" z="2"/>
+                        <rotation x="0" y="0.70710683" z="0" w="0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="3" y="0" z="4"/>
+                        <rotation x="0" y="0.70710683" z="0" w="0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="3" y="0" z="6"/>
+                        <rotation x="0" y="0.70710683" z="0" w="0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="5" y="0" z="2"/>
+                        <rotation x="-1.0677016e-07" y="0.70710683" z="-1.0677016e-07" w="-0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="5" y="0" z="4"/>
+                        <rotation x="-1.0677016e-07" y="0.70710683" z="-1.0677016e-07" w="-0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="FloorSide" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="5" y="0" z="6"/>
+                        <rotation x="-1.0677016e-07" y="0.70710683" z="-1.0677016e-07" w="-0.70710683"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <model mesh_path="Assets\Import\Meshes\Floor_Side.fbx" material_path="Assets\Import\Materials\Floor_Side\FloorSide.mat"/>
+                </game_object>
+                <game_object name="Collider" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="4" y="0" z="4"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="1" y="1" z="1"/>
+                    </transform>
+                    <collision_box is_trigger="false" is_query_test_enable="true">
+                        <scale x="4" y="0.1" z="10"/>
+                    </collision_box>
+                    <rigid_static is_active="true">
+                        <position x="-90" y="0" z="40"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                    </rigid_static>
+                </game_object>
+            </game_object>
+            <game_object name="Lights" tag="Untagged" isActive="true">
+                <transform>
+                    <position x="-7" y="0.5" z="4"/>
+                    <rotation x="0" y="0.70710683" z="0" w="0.70710683"/>
+                    <scale x="1.0000001" y="1" z="1.0000001"/>
+                </transform>
+                <game_object name="PointStart" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="0" y="0" z="11"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="0.99999976" y="1" z="0.99999976"/>
+                    </transform>
+                    <light light_type="2" inner_cone="0.89999998" outer_cone="0.99000001">
+                        <ambient x="1e-06" y="9.9998999e-07" z="9.9998999e-07" w="0"/>
+                        <diffuse x="0.1" y="0.1" z="0.1" w="0"/>
+                        <specular x="1e-06" y="9.9998999e-07" z="9.9998999e-07" w="0"/>
+                        <position x="20.000011" y="2.5" z="39.999992" w="0"/>
+                        <direction x="0.99999994" y="0" z="-1.7881393e-07" w="0"/>
+                        <attenuation x="1" y="0.090000004" z="0.032000002" w="0"/>
+                    </light>
+                </game_object>
+                <game_object name="PointEnd" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="0" y="0" z="-11"/>
+                        <rotation x="0" y="0" z="0" w="1"/>
+                        <scale x="0.99999976" y="1" z="0.99999976"/>
+                    </transform>
+                    <light light_type="2" inner_cone="0.89999998" outer_cone="0.99000001">
+                        <ambient x="1e-06" y="9.9998999e-07" z="9.9998999e-07" w="0"/>
+                        <diffuse x="0.1" y="0.1" z="0.1" w="0"/>
+                        <specular x="1e-06" y="9.9998999e-07" z="9.9998999e-07" w="0"/>
+                        <position x="-90.000015" y="2.5" z="40.000008" w="0"/>
+                        <direction x="0.99999994" y="0" z="-1.7881393e-07" w="0"/>
+                        <attenuation x="1" y="0.090000004" z="0.032000002" w="0"/>
+                    </light>
+                </game_object>
+                <game_object name="Spot" tag="Untagged" isActive="true">
+                    <transform>
+                        <position x="0" y="0" z="0"/>
+                        <rotation x="4.3711392e-08" y="-4.3711385e-08" z="4.3711392e-08" w="1"/>
+                        <scale x="0.99999976" y="1" z="0.99999976"/>
+                    </transform>
+                    <light light_type="3" inner_cone="0.1" outer_cone="1">
+                        <ambient x="1e-06" y="9.9998999e-07" z="9.9998999e-07" w="0"/>
+                        <diffuse x="1" y="1" z="1" w="0"/>
+                        <specular x="1" y="1" z="1" w="0"/>
+                        <position x="-35" y="2.5" z="40" w="0"/>
+                        <direction x="0.99999994" y="-8.7422805e-08" z="-5.9604645e-08" w="0"/>
+                        <attenuation x="0.1" y="0.1" z="0.0099999998" w="0"/>
+                    </light>
+                    <scripts scripts_nb="1">
+                        <script script_path="Assets\Scripts\Level2\RotateLight.lua"/>
+                    </scripts>
+                </game_object>
+            </game_object>
+        </game_object>
+    </game_object>
+</scene>
